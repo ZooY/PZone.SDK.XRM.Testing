@@ -103,6 +103,14 @@
   </HelpKINode>
   <HelpKINode Title="FakeServiceProvider.FakeServiceProvider constructor" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider__ctor.htm" />
   <HelpKINode Title="FakeServiceProvider.GetService method" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
+  <HelpKINode Title="FakeTracingService class">
+    <HelpKINode Title="FakeTracingService Class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
+    <HelpKINode Title="about FakeTracingService class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
+    <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeTracingService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FakeTracingService.FakeTracingService constructor" Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
+  <HelpKINode Title="FakeTracingService.Trace method" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
   <HelpKINode Title="FakeWorkflowContext class">
     <HelpKINode Title="FakeWorkflowContext Class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
     <HelpKINode Title="about FakeWorkflowContext class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
@@ -140,14 +148,6 @@
   <HelpKINode Title="FakeWorkflowContext.UserId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_UserId.htm" />
   <HelpKINode Title="FakeWorkflowContext.WorkflowCategory property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowCategory.htm" />
   <HelpKINode Title="FakeWorkflowContext.WorkflowMode property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowMode.htm" />
-  <HelpKINode Title="FakseTracingService class">
-    <HelpKINode Title="FakseTracingService Class" Url="html/T_PZone_Xrm_Testing_FakseTracingService.htm" />
-    <HelpKINode Title="about FakseTracingService class" Url="html/T_PZone_Xrm_Testing_FakseTracingService.htm" />
-    <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Testing_FakseTracingService__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakseTracingService.htm" />
-  </HelpKINode>
-  <HelpKINode Title="FakseTracingService.FakseTracingService constructor" Url="html/M_PZone_Xrm_Testing_FakseTracingService__ctor.htm" />
-  <HelpKINode Title="FakseTracingService.Trace method" Url="html/M_PZone_Xrm_Testing_FakseTracingService_Trace.htm" />
   <HelpKINode Title="GetService method" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
   <HelpKINode Title="InitiatingUserId property">
     <HelpKINode Title="FakePluginExecutionContext.InitiatingUserId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InitiatingUserId.htm" />
@@ -232,7 +232,7 @@
   <HelpKINode Title="PZone.Xrm.Testing.FakeOrganizationServiceFactory class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.FakePluginExecutionContext class" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.FakeServiceProvider class" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.FakseTracingService class" Url="html/T_PZone_Xrm_Testing_FakseTracingService.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.FakeTracingService class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.TestCategory class" Url="html/T_PZone_Xrm_Testing_TestCategory.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.Workflow namespace" Url="html/N_PZone_Xrm_Testing_Workflow.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.Workflow.FakeWorkflowContext class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
@@ -258,7 +258,7 @@
     <HelpKINode Title="fields" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm" />
   </HelpKINode>
   <HelpKINode Title="TestCategory.Integration field" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
-  <HelpKINode Title="Trace method" Url="html/M_PZone_Xrm_Testing_FakseTracingService_Trace.htm" />
+  <HelpKINode Title="Trace method" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
   <HelpKINode Title="Update method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
   <HelpKINode Title="UserId property">
     <HelpKINode Title="FakePluginExecutionContext.UserId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_UserId.htm" />
