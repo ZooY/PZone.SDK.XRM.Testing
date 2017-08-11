@@ -7,7 +7,7 @@ namespace PZone.Xrm.Testing
     /// <summary>
     /// Заглушка для классов, реализующих интерфейс <see cref="ITracingService"/>.
     /// </summary>
-    public class FakseTracingService : ITracingService
+    public class FakeTracingService : ITracingService
     {
         /// <summary>
         /// Запись строки в окно трассировки.

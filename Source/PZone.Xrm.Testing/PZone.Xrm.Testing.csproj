@@ -43,7 +43,7 @@
     <Compile Include="FakeOrganizationServiceFactory.cs" />
     <Compile Include="FakePluginExecutionContext.cs" />
     <Compile Include="FakeServiceProvider.cs" />
-    <Compile Include="FakseTracingService.cs" />
+    <Compile Include="FakeTracingService.cs" />
     <Compile Include="EntityExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Workflow\FakeWorkflowContext.cs" />
