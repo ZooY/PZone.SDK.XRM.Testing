@@ -7,7 +7,9 @@
 
 <a href="https://preview.nuget.org/packages/PZone.SDK.XRM.Testing/">NuGet Package Page</a>
 
-```PM> Install-Package PZone.SDK.XRM.Testing```
+```
+PM> Install-Package PZone.SDK.XRM.Testing
+```
 
 ## Download
 
