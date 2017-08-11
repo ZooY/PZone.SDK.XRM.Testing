@@ -11,10 +11,6 @@
 PM> Install-Package PZone.SDK.XRM.Testing
 ```
 
-## Download
-
-<a href="https://github.com/ZooY/PZone.SDK.XRM.Testing/releases">Latest release</a>
-
 ## All My Dynamics CRM Libs
 
 <ul>
