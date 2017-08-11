@@ -1,9 +1,6 @@
-# PZone SDK XRM Testing
-Testing components for Microsoft Dynamics CRM development.
-
 ## Documentation
 <ul>
-<li><a href="https://zooy.github.io/PZone.SDK.XRM.Testing/v8/index.html"><b>v8</b> for Dynamics CRM 2016 / Dynamics 365</a></li>
+<li><a href="v8/index.html"><b>v8</b> for Dynamics CRM 2016 / Dynamics 365</a></li>
 </ul>
 
 ## Install from NuGet
@@ -24,6 +21,4 @@ Testing components for Microsoft Dynamics CRM development.
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM.Workflow">PZone SDK XRM Workflow</a> Common assembly for Microsoft Dynamics CRM Workflow development.</li>
 <li>PZone SDK XRM Testing (current)</li>
 </ul>
-
-
 
