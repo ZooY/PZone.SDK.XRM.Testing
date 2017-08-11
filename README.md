@@ -14,7 +14,10 @@ Testing components for Microsoft Dynamics CRM development.
 
 ## Download
 
-<a href="https://github.com/ZooY/PZone.SDK.XRM.Testing/releases">Latest release</a>
+<ul>
+<li><a href="https://github.com/ZooY/PZone.SDK.XRM.Testing/releases">Release</a></li>
+<li><a href="https://github.com/ZooY/PZone.SDK.XRM.Testing/releases">Source Code</a></li>
+</ul>
 
 ## All My Dynamics CRM Libs
 
@@ -22,5 +25,5 @@ Testing components for Microsoft Dynamics CRM development.
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM">PZone SDK XRM</a> Common assembly for Microsoft Dynamics development.</li>
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM.Plugins">PZone SDK XRM Plug-ins</a> Common assembly for Microsoft Dynamics CRM Plug-ins development.</li>
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM.Workflow">PZone SDK XRM Workflow</a> Common assembly for Microsoft Dynamics CRM Workflow development.</li>
-<li>PZone SDK XRM Testing (current)</li>
-</ul> 
+<li><a href="https://github.com/ZooY/PZone.SDK.XRM.Testing">PZone SDK XRM Testing</a> Testing components for Microsoft Dynamics CRM development.</li>
+</ul>

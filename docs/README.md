@@ -11,16 +11,12 @@
 PM> Install-Package PZone.SDK.XRM.Testing
 ```
 
-## Download
-
-<a href="https://github.com/ZooY/PZone.SDK.XRM.Testing/releases">Latest release</a>
-
 ## All My Dynamics CRM Libs
 
 <ul>
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM">PZone SDK XRM</a> Common assembly for Microsoft Dynamics development.</li>
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM.Plugins">PZone SDK XRM Plug-ins</a> Common assembly for Microsoft Dynamics CRM Plug-ins development.</li>
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM.Workflow">PZone SDK XRM Workflow</a> Common assembly for Microsoft Dynamics CRM Workflow development.</li>
-<li>PZone SDK XRM Testing (current)</li>
+<li><a href="https://github.com/ZooY/PZone.SDK.XRM.Testing">PZone SDK XRM Testing</a> Testing components for Microsoft Dynamics CRM development.</li>
 </ul>
 
