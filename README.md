@@ -7,20 +7,18 @@ Testing components for Microsoft Dynamics CRM development.
 </ul>
 
 ## Install from NuGet
-
 <a href="https://preview.nuget.org/packages/PZone.SDK.XRM.Testing/">NuGet Package Page</a>
-
-```PM> Install-Package PZone.SDK.XRM.Testing```
+```
+PM> Install-Package PZone.SDK.XRM.Testing
+```
 
 ## Download
-
 <ul>
-<li><a href="https://github.com/ZooY/PZone.SDK.XRM.Testing/releases">Release</a></li>
+<li><a href="https://github.com/ZooY/PZone.SDK.XRM.Testing/releases">Latest Release</a></li>
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM.Testing/releases">Source Code</a></li>
 </ul>
 
 ## All My Dynamics CRM Libs
-
 <ul>
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM">PZone SDK XRM</a> Common assembly for Microsoft Dynamics development.</li>
 <li><a href="https://github.com/ZooY/PZone.SDK.XRM.Plugins">PZone SDK XRM Plug-ins</a> Common assembly for Microsoft Dynamics CRM Plug-ins development.</li>

@@ -7,6 +7,17 @@ namespace PZone.Xrm.Testing
     /// <summary>
     /// Заглушка для классов, реализующих интерфейс <see cref="IOrganizationServiceFactory"/>.
     /// </summary>
+    /// <example>
+    /// <code language="cs">
+    /// var plugin = new MyPlugin();
+    ///
+    /// var context = new FakePluginExecutionContext();
+    /// var factory = new FakeOrganizationServiceFactory();
+    /// var provider = new FakeServiceProvider(context, factory);
+    /// 
+    /// plugin.Execute(provider);
+    /// </code>
+    /// </example>
     public class FakeOrganizationServiceFactory : IOrganizationServiceFactory
     {
         private readonly IOrganizationService _service;

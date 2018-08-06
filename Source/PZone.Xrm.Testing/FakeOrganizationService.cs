@@ -14,12 +14,33 @@ namespace PZone.Xrm.Testing
     /// <summary>
     /// Заглушка для классов, реализующих интерфейс <see cref="IOrganizationService"/>.
     /// </summary>
+    /// <example>
+    /// <code language="cs">
+    /// var service = new FakeOrganizationService
+    /// {
+    ///     Entities = new List&lt;Entity&gt;
+    ///     {
+    ///         new Entity("opportunity", Guid.NewGuid());
+    ///         {
+    ///             ["statecode"] = new OptionSetValue(1)
+    ///         }
+    ///     }
+    /// }
+    /// var factory = new FakeOrganizationServiceFactory(service);
+    /// </code>
+    /// </example>
     public class FakeOrganizationService : IOrganizationService, IDisposable
     {
         /// <summary>
+        /// Записи, созданные методом <see cref="Create"/>.
+        /// </summary>
+        public List<Entity> CreatedEntities { get; set; } = new List<Entity>();
+
+
+        /// <summary>
         /// Записи, удаленные методом <see cref="Delete"/>.
         /// </summary>
-        protected List<Guid> DeletedEntities = new List<Guid>();
+        public List<Guid> DeletedEntities { get; set; } = new List<Guid>();
 
 
         /// <summary>
@@ -57,11 +78,11 @@ namespace PZone.Xrm.Testing
             sb.AppendLine("Create entity");
             sb.AppendLine(entity.EntityInfo());
             System.Diagnostics.Trace.Write(sb.ToString());
+            CreatedEntities.Add(entity);
             return entity.Id;
         }
 
-
-
+        
         /// <summary>
         /// Запрос одной записи сущности.
         /// </summary>
@@ -145,8 +166,7 @@ namespace PZone.Xrm.Testing
         /// </remarks>
         public virtual OrganizationResponse Execute(OrganizationRequest request)
         {
-            var retrieveAttributeRequest = request as RetrieveAttributeRequest;
-            if (retrieveAttributeRequest != null)
+            if (request is RetrieveAttributeRequest retrieveAttributeRequest)
             {
                 var attributeMetadata = AttributesMetadata.FirstOrDefault(e => e.LogicalName == retrieveAttributeRequest.LogicalName);
                 if (attributeMetadata == null)
@@ -154,8 +174,8 @@ namespace PZone.Xrm.Testing
                 var response = new RetrieveAttributeResponse { ["AttributeMetadata"] = attributeMetadata };
                 return response;
             }
-            var retrieveEntityRequest = request as RetrieveEntityRequest;
-            if (retrieveEntityRequest != null)
+
+            if (request is RetrieveEntityRequest retrieveEntityRequest)
             {
                 var entityMetadata = EntitiesMetadata.FirstOrDefault(e => e.LogicalName == retrieveEntityRequest.LogicalName);
                 if (entityMetadata == null)
@@ -169,16 +189,13 @@ namespace PZone.Xrm.Testing
                 return response;
             }
 
-            var executeMultipleRequest = request as ExecuteMultipleRequest;
-            if (executeMultipleRequest != null)
+            if (request is ExecuteMultipleRequest executeMultipleRequest)
             {
                 var collection = new ExecuteMultipleResponseItemCollection();
                 var i = 0;
                 foreach (var requestItem in executeMultipleRequest.Requests)
                 {
-
-                    var createRequest = requestItem as CreateRequest;
-                    if (createRequest != null)
+                    if (requestItem is CreateRequest createRequest)
                     {
                         var sb = new StringBuilder();
                         sb.AppendLine("Create entity");

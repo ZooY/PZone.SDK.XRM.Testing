@@ -7,11 +7,21 @@ namespace PZone.Xrm.Testing
     /// <summary>
     /// Заглушка для классов, реализующих интерфейс <see cref="IServiceProvider"/>.
     /// </summary>
+    /// <example>
+    /// <code language="cs">
+    /// var plugin = new MyPlugin();
+    ///
+    /// var context = new FakePluginExecutionContext();
+    /// var factory = new FakeOrganizationServiceFactory();
+    /// var provider = new FakeServiceProvider(context, factory);
+    /// 
+    /// plugin.Execute(provider);
+    /// </code>
+    /// </example>
     public class FakeServiceProvider : IServiceProvider
     {
         private readonly IPluginExecutionContext _context;
-        private readonly IOrganizationService _service;
-        private readonly ITracingService _tracingService;
+        private readonly IOrganizationServiceFactory _factory;
 
 
         /// <inheritdoc />
@@ -19,11 +29,9 @@ namespace PZone.Xrm.Testing
         {
             if (serviceType == typeof(IPluginExecutionContext))
                 return _context;
-			if (serviceType == typeof(IOrganizationService))
-                return _service;
-            if (serviceType == typeof(ITracingService))
-                return _tracingService;
-            throw new ArgumentOutOfRangeException($@"Неизвестный тип сервиса ""{serviceType.FullName}"".");
+            if (serviceType == typeof(IOrganizationServiceFactory))
+                return _factory;
+            throw new ArgumentOutOfRangeException($@"Unknown service type ""{serviceType.FullName}"".");
         }
 
 
@@ -31,11 +39,11 @@ namespace PZone.Xrm.Testing
         /// Конструтор класса.
         /// </summary>
         /// <param name="context">Контекст выполненеия подключаемого модуля.</param>
-        public FakeServiceProvider(IPluginExecutionContext context, IOrganizationService service = null, ITracingService tracingService = null)
+        /// <param name="factory">Фабрика для создания сервисов.</param>
+        public FakeServiceProvider(IPluginExecutionContext context, IOrganizationServiceFactory factory = null)
         {
             _context = context;
-            _service = service;
-            _tracingService = tracingService ?? new FakeTracingService();
+            _factory = factory ?? new FakeOrganizationServiceFactory();
         }
     }
 }

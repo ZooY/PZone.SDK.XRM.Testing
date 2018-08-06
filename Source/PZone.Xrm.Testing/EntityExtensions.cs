@@ -26,23 +26,23 @@ namespace PZone.Xrm.Testing
             sb.AppendLine(entity.EntityState.HasValue ? $"EntityState = {entity.EntityState.Value}" : "EntityState = null");
             foreach (var attribute in entity.Attributes)
             {
-                // ReSharper disable once CanBeReplacedWithTryCastAndCheckForNull
-                if (attribute.Value is EntityReference)
+                if (attribute.Value is EntityReference entityReference)
                 {
-                    var entityReference = (EntityReference)attribute.Value;
                     sb.AppendLine($"{attribute.Key} = {entityReference.LogicalName} | {entityReference.Id} | {entityReference.Name}");
                 }
-                else if (attribute.Value is OptionSetValue)
+                else if (attribute.Value is OptionSetValue optionSetValue)
                 {
-                    var optionSetValue = (OptionSetValue)attribute.Value;
                     sb.AppendLine($"{attribute.Key} = {optionSetValue.Value} | {(entity.FormattedValues.Where(v => v.Key == attribute.Key).Select(v => v.Value).FirstOrDefault())}");
                 }
-                else if (attribute.Value is EntityCollection)
+                else if (attribute.Value is EntityCollection entityCollection)
                 {
-                    var entityCollection = (EntityCollection)attribute.Value;
                     sb.AppendLine(attribute.Key + " =>");
                     foreach (var entityInCollection in entityCollection.Entities)
                         sb.Append(entityInCollection.EntityInfo());
+                }
+                else if (attribute.Value is Money money)
+                {
+                    sb.AppendLine($"{attribute.Key} = {money.Value}");
                 }
                 else
                     sb.AppendLine($"{attribute.Key} = {attribute.Value}");

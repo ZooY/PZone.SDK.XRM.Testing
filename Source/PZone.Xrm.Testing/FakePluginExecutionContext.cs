@@ -7,6 +7,20 @@ namespace PZone.Xrm.Testing
     /// <summary>
     /// Заглушка для классов, реализующих интерфейс <see cref="IPluginExecutionContext"/>.
     /// </summary>
+    /// <example>
+    /// <code language="cs">
+    /// var entity = new Entity("opportunity", Guid.NewGuid());
+    /// {
+    ///     ["statecode"] = new OptionSetValue(1)
+    /// };
+    /// var postEntity = new Entity("opportunity", entity.Id)
+    /// {
+    ///     ["estimatedvalue"] = new Money(10000)
+    /// };
+    /// var context = new FakePluginExecutionContext(entity);
+    /// context.PostEntityImages.Add("Image", postEntity);
+    /// </code>
+    /// </example>
     public class FakePluginExecutionContext : IPluginExecutionContext
     {
         private readonly Entity _primaryEntity;
