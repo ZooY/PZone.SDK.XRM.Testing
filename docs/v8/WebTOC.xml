@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="95b7727e-6f48-4928-9bc6-21921d51fa82" Title="Namespaces" Url="html/R_Project_Documentation.htm">
-    <HelpTOCNode Id="a3116607-d3a6-4158-a306-7e91856b8cd3" Title="PZone.Xrm.Testing" Url="html/N_PZone_Xrm_Testing.htm">
-      <HelpTOCNode Id="e1ac703c-79f2-4312-8bb6-388adb88b08b" Title="EntityExtensions Class" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm">
-        <HelpTOCNode Id="54ae3c3e-a188-444e-a182-d9335edc1b18" Title="EntityExtensions Methods" Url="html/Methods_T_PZone_Xrm_Testing_EntityExtensions.htm">
+  <HelpTOCNode Id="5d563701-364a-4d60-952b-9ed2bd8c8755" Title="Namespaces" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="581758a7-b8d8-451a-9d1c-a1a3218b0e65" Title="PZone.Xrm.Testing" Url="html/N_PZone_Xrm_Testing.htm">
+      <HelpTOCNode Id="47faf43d-074d-47ca-a609-f0594cdd276f" Title="EntityExtensions Class" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm">
+        <HelpTOCNode Id="a796b954-77a2-4b91-b1e1-3b2cfc399367" Title="EntityExtensions Methods" Url="html/Methods_T_PZone_Xrm_Testing_EntityExtensions.htm">
           <HelpTOCNode Title="EntityInfo Method " Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="582be7ae-aec5-4d6d-89c7-a04aa50d02b0" Title="FakeOrganizationService Class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm">
+      <HelpTOCNode Id="7461f14a-1353-4d7b-9ec7-3bdf4109a496" Title="FakeOrganizationService Class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm">
         <HelpTOCNode Title="FakeOrganizationService Constructor " Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
-        <HelpTOCNode Id="42019a59-3859-4df9-85d6-2ca43a6b3bad" Title="FakeOrganizationService Properties" Url="html/Properties_T_PZone_Xrm_Testing_FakeOrganizationService.htm">
+        <HelpTOCNode Id="b860f68c-b7bc-4d68-a731-b4bbb889100c" Title="FakeOrganizationService Properties" Url="html/Properties_T_PZone_Xrm_Testing_FakeOrganizationService.htm">
           <HelpTOCNode Title="AttributesMetadata Property " Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_AttributesMetadata.htm" />
           <HelpTOCNode Title="CreatedEntities Property " Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_CreatedEntities.htm" />
           <HelpTOCNode Title="DeletedEntities Property " Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
           <HelpTOCNode Title="Entities Property " Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_Entities.htm" />
           <HelpTOCNode Title="EntitiesMetadata Property " Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_EntitiesMetadata.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="23cc381e-80ba-41a7-8c03-2000b738abf3" Title="FakeOrganizationService Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationService.htm">
+        <HelpTOCNode Id="8039273f-9db4-493d-a86e-5f799c76f9d9" Title="FakeOrganizationService Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationService.htm">
           <HelpTOCNode Title="Associate Method " Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Associate.htm" />
           <HelpTOCNode Title="Create Method " Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Create.htm" />
           <HelpTOCNode Title="Delete Method " Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Delete.htm" />
@@ -29,21 +29,21 @@
           <HelpTOCNode Title="Update Method " Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8155dedb-bb45-47d3-a3b0-167c3099676b" Title="FakeOrganizationServiceFactory Class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm">
-        <HelpTOCNode Id="baa0cd7c-ceb6-472c-9394-e504fbb2ddc7" Title="FakeOrganizationServiceFactory Constructor " Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm">
+      <HelpTOCNode Id="20b591a0-7dce-439f-88d0-e876de0a8402" Title="FakeOrganizationServiceFactory Class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm">
+        <HelpTOCNode Id="2328b4cd-72a6-431b-8aab-9988fc602253" Title="FakeOrganizationServiceFactory Constructor " Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm">
           <HelpTOCNode Title="FakeOrganizationServiceFactory Constructor " Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
           <HelpTOCNode Title="FakeOrganizationServiceFactory Constructor (IOrganizationService)" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f9c10098-01d8-486f-a410-e1f63355538f" Title="FakeOrganizationServiceFactory Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm">
+        <HelpTOCNode Id="a036b95c-cc1a-4b75-82b7-accc8facc821" Title="FakeOrganizationServiceFactory Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm">
           <HelpTOCNode Title="CreateOrganizationService Method " Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory_CreateOrganizationService.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="193576c6-c106-402d-a690-0d8cfab317a0" Title="FakePluginExecutionContext Class" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm">
-        <HelpTOCNode Id="716d1a46-5616-444c-8540-2efcd352cc02" Title="FakePluginExecutionContext Constructor " Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm">
+      <HelpTOCNode Id="c1e6f247-71b6-491f-b91c-0afb3e300d57" Title="FakePluginExecutionContext Class" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm">
+        <HelpTOCNode Id="17449e04-ba79-4ec3-962f-1d6e8ba167f4" Title="FakePluginExecutionContext Constructor " Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm">
           <HelpTOCNode Title="FakePluginExecutionContext Constructor " Url="html/M_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm" />
           <HelpTOCNode Title="FakePluginExecutionContext Constructor (Entity)" Url="html/M_PZone_Xrm_Testing_FakePluginExecutionContext__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="266f0248-f8b0-47e5-bbf2-f015c0849b31" Title="FakePluginExecutionContext Properties" Url="html/Properties_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm">
+        <HelpTOCNode Id="55b95939-2106-49a6-8cc3-02d293a3c48d" Title="FakePluginExecutionContext Properties" Url="html/Properties_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm">
           <HelpTOCNode Title="BusinessUnitId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_BusinessUnitId.htm" />
           <HelpTOCNode Title="CorrelationId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_CorrelationId.htm" />
           <HelpTOCNode Title="Depth Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Depth.htm" />
@@ -74,31 +74,31 @@
         </HelpTOCNode>
         <HelpTOCNode Title="FakePluginExecutionContext Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="79e213e8-db74-4a56-b471-0ad305b5c28e" Title="FakeServiceProvider Class" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm">
+      <HelpTOCNode Id="60afeef2-662f-4eb4-a820-c4ba6b42a2b6" Title="FakeServiceProvider Class" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm">
         <HelpTOCNode Title="FakeServiceProvider Constructor " Url="html/M_PZone_Xrm_Testing_FakeServiceProvider__ctor.htm" />
-        <HelpTOCNode Id="191d930b-2b72-4e6e-a491-ace71919dfe7" Title="FakeServiceProvider Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeServiceProvider.htm">
+        <HelpTOCNode Id="ae3e43e5-8373-493a-958d-ce5c39641160" Title="FakeServiceProvider Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeServiceProvider.htm">
           <HelpTOCNode Title="GetService Method " Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="3af96bfc-82d0-4bab-b8cc-0133c4eae324" Title="FakeTracingService Class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm">
+      <HelpTOCNode Id="18b155a3-7d4e-4a37-b9fd-69f244999d9a" Title="FakeTracingService Class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm">
         <HelpTOCNode Title="FakeTracingService Constructor " Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
-        <HelpTOCNode Id="d6263f76-f211-4d41-96d2-76dbfafa71b3" Title="FakeTracingService Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeTracingService.htm">
+        <HelpTOCNode Id="0594884a-e30b-41b0-9a2f-8477e4aedc0a" Title="FakeTracingService Methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeTracingService.htm">
           <HelpTOCNode Title="Trace Method " Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a8faa016-9b8a-4d84-bfee-407fe96c5294" Title="TestCategory Class" Url="html/T_PZone_Xrm_Testing_TestCategory.htm">
-        <HelpTOCNode Id="b43600fd-4a43-43ca-b10a-6eac245ceb0b" Title="TestCategory Fields" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm">
+      <HelpTOCNode Id="e810d1d4-e71c-4b11-b99f-bf0a12aca0de" Title="TestCategory Class" Url="html/T_PZone_Xrm_Testing_TestCategory.htm">
+        <HelpTOCNode Id="d65664c9-4430-4ef2-8835-3f1fe6277bfb" Title="TestCategory Fields" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm">
           <HelpTOCNode Title="Integration Field" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6d3fde34-26c5-4a98-8c90-7ab74a7a8876" Title="PZone.Xrm.Testing.Workflow" Url="html/N_PZone_Xrm_Testing_Workflow.htm">
-      <HelpTOCNode Id="b8501f2d-7b90-4e81-95bd-75916b1851db" Title="FakeWorkflowContext Class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm">
-        <HelpTOCNode Id="9908e2f0-6a12-4775-93d6-c18d356301ac" Title="FakeWorkflowContext Constructor " Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm">
+    <HelpTOCNode Id="d2970031-030a-46f9-ac3f-b8af80ba9b83" Title="PZone.Xrm.Testing.Workflow" Url="html/N_PZone_Xrm_Testing_Workflow.htm">
+      <HelpTOCNode Id="a4442d7b-0233-443c-a9eb-88d36d9db52f" Title="FakeWorkflowContext Class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm">
+        <HelpTOCNode Id="0226fd31-aa96-4d60-ab85-c45d279bb040" Title="FakeWorkflowContext Constructor " Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm">
           <HelpTOCNode Title="FakeWorkflowContext Constructor " Url="html/M_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm" />
           <HelpTOCNode Title="FakeWorkflowContext Constructor (Entity)" Url="html/M_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="0c05b0e8-546f-4b24-9e40-677557d19b56" Title="FakeWorkflowContext Properties" Url="html/Properties_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm">
+        <HelpTOCNode Id="4ad0ffe7-01dd-4915-ad4c-1fcf32068073" Title="FakeWorkflowContext Properties" Url="html/Properties_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm">
           <HelpTOCNode Title="BusinessUnitId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_BusinessUnitId.htm" />
           <HelpTOCNode Title="CorrelationId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_CorrelationId.htm" />
           <HelpTOCNode Title="Depth Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Depth.htm" />
