@@ -11,9 +11,10 @@
     <HelpKINode Title="FakeWorkflowContext.CorrelationId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_CorrelationId.htm" />
   </HelpKINode>
   <HelpKINode Title="Create method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Create.htm" />
+  <HelpKINode Title="CreatedEntities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_CreatedEntities.htm" />
   <HelpKINode Title="CreateOrganizationService method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory_CreateOrganizationService.htm" />
   <HelpKINode Title="Delete method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Delete.htm" />
-  <HelpKINode Title="DeletedEntities field" Url="html/F_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
+  <HelpKINode Title="DeletedEntities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
   <HelpKINode Title="Depth property">
     <HelpKINode Title="FakePluginExecutionContext.Depth Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Depth.htm" />
     <HelpKINode Title="FakeWorkflowContext.Depth Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Depth.htm" />
@@ -24,7 +25,6 @@
   <HelpKINode Title="EntitiesMetadata property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_EntitiesMetadata.htm" />
   <HelpKINode Title="EntityExtensions class">
     <HelpKINode Title="EntityExtensions Class" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm" />
-    <HelpKINode Title="about EntityExtensions class" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_EntityExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="EntityExtensions.EntityInfo method" Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
@@ -32,17 +32,16 @@
   <HelpKINode Title="Execute method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Execute.htm" />
   <HelpKINode Title="FakeOrganizationService class">
     <HelpKINode Title="FakeOrganizationService Class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
-    <HelpKINode Title="about FakeOrganizationService class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
     <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
   </HelpKINode>
   <HelpKINode Title="FakeOrganizationService.Associate method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Associate.htm" />
   <HelpKINode Title="FakeOrganizationService.AttributesMetadata property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_AttributesMetadata.htm" />
   <HelpKINode Title="FakeOrganizationService.Create method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Create.htm" />
+  <HelpKINode Title="FakeOrganizationService.CreatedEntities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_CreatedEntities.htm" />
   <HelpKINode Title="FakeOrganizationService.Delete method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Delete.htm" />
-  <HelpKINode Title="FakeOrganizationService.DeletedEntities field" Url="html/F_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
+  <HelpKINode Title="FakeOrganizationService.DeletedEntities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
   <HelpKINode Title="FakeOrganizationService.Disassociate method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Disassociate.htm" />
   <HelpKINode Title="FakeOrganizationService.Dispose method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Dispose.htm" />
   <HelpKINode Title="FakeOrganizationService.Entities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_Entities.htm" />
@@ -54,7 +53,6 @@
   <HelpKINode Title="FakeOrganizationService.Update method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
   <HelpKINode Title="FakeOrganizationServiceFactory class">
     <HelpKINode Title="FakeOrganizationServiceFactory Class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
-    <HelpKINode Title="about FakeOrganizationServiceFactory class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
   </HelpKINode>
@@ -62,7 +60,6 @@
   <HelpKINode Title="FakeOrganizationServiceFactory.FakeOrganizationServiceFactory constructor" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
   <HelpKINode Title="FakePluginExecutionContext class">
     <HelpKINode Title="FakePluginExecutionContext Class" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
-    <HelpKINode Title="about FakePluginExecutionContext class" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
@@ -97,7 +94,6 @@
   <HelpKINode Title="FakePluginExecutionContext.UserId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_UserId.htm" />
   <HelpKINode Title="FakeServiceProvider class">
     <HelpKINode Title="FakeServiceProvider Class" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
-    <HelpKINode Title="about FakeServiceProvider class" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
     <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
   </HelpKINode>
@@ -105,7 +101,6 @@
   <HelpKINode Title="FakeServiceProvider.GetService method" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
   <HelpKINode Title="FakeTracingService class">
     <HelpKINode Title="FakeTracingService Class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
-    <HelpKINode Title="about FakeTracingService class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
     <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeTracingService.htm" />
   </HelpKINode>
@@ -113,7 +108,6 @@
   <HelpKINode Title="FakeTracingService.Trace method" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
   <HelpKINode Title="FakeWorkflowContext class">
     <HelpKINode Title="FakeWorkflowContext Class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
-    <HelpKINode Title="about FakeWorkflowContext class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
@@ -254,7 +248,6 @@
   <HelpKINode Title="StageName property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_StageName.htm" />
   <HelpKINode Title="TestCategory class">
     <HelpKINode Title="TestCategory Class" Url="html/T_PZone_Xrm_Testing_TestCategory.htm" />
-    <HelpKINode Title="about TestCategory class" Url="html/T_PZone_Xrm_Testing_TestCategory.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm" />
   </HelpKINode>
   <HelpKINode Title="TestCategory.Integration field" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
