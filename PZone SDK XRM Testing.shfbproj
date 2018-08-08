@@ -16,7 +16,7 @@
     <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
     <OutputPath>docs\v8\</OutputPath>
     <HtmlHelpName>Documentation</HtmlHelpName>
-    <Language>en-US</Language>
+    <Language>ru-RU</Language>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <HelpFileFormat>Website</HelpFileFormat>
@@ -34,7 +34,7 @@
     <Preliminary>False</Preliminary>
     <NamingMethod>MemberName</NamingMethod>
     <HelpTitle>PZone SDK XRM Testing</HelpTitle>
-    <CopyrightText>Copyright &amp;#169%3b 2017 Programming Zone</CopyrightText>
+    <CopyrightText>Copyright &amp;#169%3b 2017-2018 Programming Zone</CopyrightText>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <WarnOnMissingSourceContext>False</WarnOnMissingSourceContext>
     <DocumentationSources>

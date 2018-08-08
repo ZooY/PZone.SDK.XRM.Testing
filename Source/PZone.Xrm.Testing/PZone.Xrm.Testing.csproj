@@ -65,7 +65,16 @@
     <Reference Include="Microsoft.Xrm.Sdk.Workflow, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CrmSdk.Workflow.8.2.0.2\lib\net452\Microsoft.Xrm.Sdk.Workflow.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationFramework" />
+    <Reference Include="PZone.SDK.Xrm, Version=8.1.2.0, Culture=neutral, PublicKeyToken=4394d41fdc99a9c8, processorArchitecture=MSIL">
+      <HintPath>..\packages\PZone.SDK.XRM.8.1.2\lib\net452\PZone.SDK.Xrm.dll</HintPath>
+    </Reference>
+    <Reference Include="PZone.SDK.Xrm.Plugins, Version=8.1.2.0, Culture=neutral, PublicKeyToken=4394d41fdc99a9c8, processorArchitecture=MSIL">
+      <HintPath>..\packages\PZone.SDK.XRM.Plugins.8.1.2\lib\net452\PZone.SDK.Xrm.Plugins.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Activities" />
     <Reference Include="System.Activities.Presentation" />

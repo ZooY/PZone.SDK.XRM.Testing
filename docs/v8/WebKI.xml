@@ -1,262 +1,262 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpKI>
-  <HelpKINode Title="Associate method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Associate.htm" />
-  <HelpKINode Title="AttributesMetadata property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_AttributesMetadata.htm" />
-  <HelpKINode Title="BusinessUnitId property">
-    <HelpKINode Title="FakePluginExecutionContext.BusinessUnitId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_BusinessUnitId.htm" />
-    <HelpKINode Title="FakeWorkflowContext.BusinessUnitId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_BusinessUnitId.htm" />
+  <HelpKINode Title="Associate метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Associate.htm" />
+  <HelpKINode Title="AttributesMetadata свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_AttributesMetadata.htm" />
+  <HelpKINode Title="BusinessUnitId свойство">
+    <HelpKINode Title="FakePluginExecutionContext.BusinessUnitId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_BusinessUnitId.htm" />
+    <HelpKINode Title="FakeWorkflowContext.BusinessUnitId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_BusinessUnitId.htm" />
   </HelpKINode>
-  <HelpKINode Title="CorrelationId property">
-    <HelpKINode Title="FakePluginExecutionContext.CorrelationId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_CorrelationId.htm" />
-    <HelpKINode Title="FakeWorkflowContext.CorrelationId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_CorrelationId.htm" />
+  <HelpKINode Title="CorrelationId свойство">
+    <HelpKINode Title="FakePluginExecutionContext.CorrelationId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_CorrelationId.htm" />
+    <HelpKINode Title="FakeWorkflowContext.CorrelationId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_CorrelationId.htm" />
   </HelpKINode>
-  <HelpKINode Title="Create method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Create.htm" />
-  <HelpKINode Title="CreatedEntities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_CreatedEntities.htm" />
-  <HelpKINode Title="CreateOrganizationService method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory_CreateOrganizationService.htm" />
-  <HelpKINode Title="Delete method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Delete.htm" />
-  <HelpKINode Title="DeletedEntities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
-  <HelpKINode Title="Depth property">
-    <HelpKINode Title="FakePluginExecutionContext.Depth Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Depth.htm" />
-    <HelpKINode Title="FakeWorkflowContext.Depth Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Depth.htm" />
+  <HelpKINode Title="Create метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Create.htm" />
+  <HelpKINode Title="CreatedEntities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_CreatedEntities.htm" />
+  <HelpKINode Title="CreateOrganizationService метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory_CreateOrganizationService.htm" />
+  <HelpKINode Title="Delete метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Delete.htm" />
+  <HelpKINode Title="DeletedEntities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
+  <HelpKINode Title="Depth свойство">
+    <HelpKINode Title="FakePluginExecutionContext.Depth - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Depth.htm" />
+    <HelpKINode Title="FakeWorkflowContext.Depth - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Depth.htm" />
   </HelpKINode>
-  <HelpKINode Title="Disassociate method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Disassociate.htm" />
-  <HelpKINode Title="Dispose method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Dispose.htm" />
-  <HelpKINode Title="Entities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_Entities.htm" />
-  <HelpKINode Title="EntitiesMetadata property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_EntitiesMetadata.htm" />
-  <HelpKINode Title="EntityExtensions class">
-    <HelpKINode Title="EntityExtensions Class" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_EntityExtensions.htm" />
+  <HelpKINode Title="Disassociate метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Disassociate.htm" />
+  <HelpKINode Title="Dispose метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Dispose.htm" />
+  <HelpKINode Title="Entities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_Entities.htm" />
+  <HelpKINode Title="EntitiesMetadata свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_EntitiesMetadata.htm" />
+  <HelpKINode Title="EntityExtensions - класс">
+    <HelpKINode Title="EntityExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_EntityExtensions.htm" />
   </HelpKINode>
-  <HelpKINode Title="EntityExtensions.EntityInfo method" Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
-  <HelpKINode Title="EntityInfo method" Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
-  <HelpKINode Title="Execute method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Execute.htm" />
-  <HelpKINode Title="FakeOrganizationService class">
-    <HelpKINode Title="FakeOrganizationService Class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
-    <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
+  <HelpKINode Title="EntityExtensions.EntityInfo метод" Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
+  <HelpKINode Title="EntityInfo метод" Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
+  <HelpKINode Title="Execute метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Execute.htm" />
+  <HelpKINode Title="FakeOrganizationService - класс">
+    <HelpKINode Title="FakeOrganizationService - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
   </HelpKINode>
-  <HelpKINode Title="FakeOrganizationService.Associate method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Associate.htm" />
-  <HelpKINode Title="FakeOrganizationService.AttributesMetadata property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_AttributesMetadata.htm" />
-  <HelpKINode Title="FakeOrganizationService.Create method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Create.htm" />
-  <HelpKINode Title="FakeOrganizationService.CreatedEntities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_CreatedEntities.htm" />
-  <HelpKINode Title="FakeOrganizationService.Delete method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Delete.htm" />
-  <HelpKINode Title="FakeOrganizationService.DeletedEntities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
-  <HelpKINode Title="FakeOrganizationService.Disassociate method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Disassociate.htm" />
-  <HelpKINode Title="FakeOrganizationService.Dispose method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Dispose.htm" />
-  <HelpKINode Title="FakeOrganizationService.Entities property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_Entities.htm" />
-  <HelpKINode Title="FakeOrganizationService.EntitiesMetadata property" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_EntitiesMetadata.htm" />
-  <HelpKINode Title="FakeOrganizationService.Execute method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Execute.htm" />
-  <HelpKINode Title="FakeOrganizationService.FakeOrganizationService constructor" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
-  <HelpKINode Title="FakeOrganizationService.Retrieve method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Retrieve.htm" />
-  <HelpKINode Title="FakeOrganizationService.RetrieveMultiple method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_RetrieveMultiple.htm" />
-  <HelpKINode Title="FakeOrganizationService.Update method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
-  <HelpKINode Title="FakeOrganizationServiceFactory class">
-    <HelpKINode Title="FakeOrganizationServiceFactory Class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
+  <HelpKINode Title="FakeOrganizationService.Associate метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Associate.htm" />
+  <HelpKINode Title="FakeOrganizationService.AttributesMetadata свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_AttributesMetadata.htm" />
+  <HelpKINode Title="FakeOrganizationService.Create метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Create.htm" />
+  <HelpKINode Title="FakeOrganizationService.CreatedEntities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_CreatedEntities.htm" />
+  <HelpKINode Title="FakeOrganizationService.Delete метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Delete.htm" />
+  <HelpKINode Title="FakeOrganizationService.DeletedEntities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
+  <HelpKINode Title="FakeOrganizationService.Disassociate метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Disassociate.htm" />
+  <HelpKINode Title="FakeOrganizationService.Dispose метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Dispose.htm" />
+  <HelpKINode Title="FakeOrganizationService.Entities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_Entities.htm" />
+  <HelpKINode Title="FakeOrganizationService.EntitiesMetadata свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_EntitiesMetadata.htm" />
+  <HelpKINode Title="FakeOrganizationService.Execute метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Execute.htm" />
+  <HelpKINode Title="FakeOrganizationService.FakeOrganizationService конструктор" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
+  <HelpKINode Title="FakeOrganizationService.Retrieve метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Retrieve.htm" />
+  <HelpKINode Title="FakeOrganizationService.RetrieveMultiple метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_RetrieveMultiple.htm" />
+  <HelpKINode Title="FakeOrganizationService.Update метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
+  <HelpKINode Title="FakeOrganizationServiceFactory - класс">
+    <HelpKINode Title="FakeOrganizationServiceFactory - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
+    <HelpKINode Title="конструктор" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
   </HelpKINode>
-  <HelpKINode Title="FakeOrganizationServiceFactory.CreateOrganizationService method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory_CreateOrganizationService.htm" />
-  <HelpKINode Title="FakeOrganizationServiceFactory.FakeOrganizationServiceFactory constructor" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
-  <HelpKINode Title="FakePluginExecutionContext class">
-    <HelpKINode Title="FakePluginExecutionContext Class" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
+  <HelpKINode Title="FakeOrganizationServiceFactory.CreateOrganizationService метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory_CreateOrganizationService.htm" />
+  <HelpKINode Title="FakeOrganizationServiceFactory.FakeOrganizationServiceFactory конструктор" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
+  <HelpKINode Title="FakePluginExecutionContext - класс">
+    <HelpKINode Title="FakePluginExecutionContext - класс" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
+    <HelpKINode Title="конструктор" Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
   </HelpKINode>
-  <HelpKINode Title="FakePluginExecutionContext.BusinessUnitId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_BusinessUnitId.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.CorrelationId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_CorrelationId.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.Depth property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Depth.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.FakePluginExecutionContext constructor" Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.InitiatingUserId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InitiatingUserId.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.InputParameters property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InputParameters.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.IsExecutingOffline property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsExecutingOffline.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.IsInTransaction property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsInTransaction.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.IsOfflinePlayback property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsOfflinePlayback.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.IsolationMode property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsolationMode.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.MessageName property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_MessageName.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.Mode property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Mode.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.OperationCreatedOn property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OperationCreatedOn.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.OperationId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OperationId.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.OrganizationId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OrganizationId.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.OrganizationName property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OrganizationName.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.OutputParameters property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OutputParameters.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.OwningExtension property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OwningExtension.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.ParentContext property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_ParentContext.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.PostEntityImages property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PostEntityImages.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.PreEntityImages property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PreEntityImages.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.PrimaryEntityId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PrimaryEntityId.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.PrimaryEntityName property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PrimaryEntityName.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.RequestId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_RequestId.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.SecondaryEntityName property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SecondaryEntityName.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.SharedVariables property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SharedVariables.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.Stage property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Stage.htm" />
-  <HelpKINode Title="FakePluginExecutionContext.UserId property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_UserId.htm" />
-  <HelpKINode Title="FakeServiceProvider class">
-    <HelpKINode Title="FakeServiceProvider Class" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
-    <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.BusinessUnitId свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_BusinessUnitId.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.CorrelationId свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_CorrelationId.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.Depth свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Depth.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.FakePluginExecutionContext конструктор" Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.InitiatingUserId свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InitiatingUserId.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.InputParameters свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InputParameters.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.IsExecutingOffline свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsExecutingOffline.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.IsInTransaction свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsInTransaction.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.IsOfflinePlayback свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsOfflinePlayback.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.IsolationMode свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsolationMode.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.MessageName свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_MessageName.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.Mode свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Mode.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.OperationCreatedOn свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OperationCreatedOn.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.OperationId свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OperationId.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.OrganizationId свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OrganizationId.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.OrganizationName свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OrganizationName.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.OutputParameters свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OutputParameters.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.OwningExtension свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OwningExtension.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.ParentContext свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_ParentContext.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.PostEntityImages свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PostEntityImages.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.PreEntityImages свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PreEntityImages.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.PrimaryEntityId свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PrimaryEntityId.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.PrimaryEntityName свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PrimaryEntityName.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.RequestId свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_RequestId.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.SecondaryEntityName свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SecondaryEntityName.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.SharedVariables свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SharedVariables.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.Stage свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Stage.htm" />
+  <HelpKINode Title="FakePluginExecutionContext.UserId свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_UserId.htm" />
+  <HelpKINode Title="FakeServiceProvider - класс">
+    <HelpKINode Title="FakeServiceProvider - класс" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
   </HelpKINode>
-  <HelpKINode Title="FakeServiceProvider.FakeServiceProvider constructor" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider__ctor.htm" />
-  <HelpKINode Title="FakeServiceProvider.GetService method" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
-  <HelpKINode Title="FakeTracingService class">
-    <HelpKINode Title="FakeTracingService Class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
-    <HelpKINode Title="constructor" Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_FakeTracingService.htm" />
+  <HelpKINode Title="FakeServiceProvider.FakeServiceProvider конструктор" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider__ctor.htm" />
+  <HelpKINode Title="FakeServiceProvider.GetService метод" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
+  <HelpKINode Title="FakeTracingService - класс">
+    <HelpKINode Title="FakeTracingService - класс" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeTracingService.htm" />
   </HelpKINode>
-  <HelpKINode Title="FakeTracingService.FakeTracingService constructor" Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
-  <HelpKINode Title="FakeTracingService.Trace method" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
-  <HelpKINode Title="FakeWorkflowContext class">
-    <HelpKINode Title="FakeWorkflowContext Class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
-    <HelpKINode Title="constructor" Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
+  <HelpKINode Title="FakeTracingService.FakeTracingService конструктор" Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
+  <HelpKINode Title="FakeTracingService.Trace метод" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
+  <HelpKINode Title="FakeWorkflowContext - класс">
+    <HelpKINode Title="FakeWorkflowContext - класс" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
+    <HelpKINode Title="конструктор" Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
   </HelpKINode>
-  <HelpKINode Title="FakeWorkflowContext.BusinessUnitId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_BusinessUnitId.htm" />
-  <HelpKINode Title="FakeWorkflowContext.CorrelationId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_CorrelationId.htm" />
-  <HelpKINode Title="FakeWorkflowContext.Depth property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Depth.htm" />
-  <HelpKINode Title="FakeWorkflowContext.FakeWorkflowContext constructor" Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm" />
-  <HelpKINode Title="FakeWorkflowContext.InitiatingUserId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_InitiatingUserId.htm" />
-  <HelpKINode Title="FakeWorkflowContext.InputParameters property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_InputParameters.htm" />
-  <HelpKINode Title="FakeWorkflowContext.IsExecutingOffline property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsExecutingOffline.htm" />
-  <HelpKINode Title="FakeWorkflowContext.IsInTransaction property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsInTransaction.htm" />
-  <HelpKINode Title="FakeWorkflowContext.IsOfflinePlayback property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsOfflinePlayback.htm" />
-  <HelpKINode Title="FakeWorkflowContext.IsolationMode property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsolationMode.htm" />
-  <HelpKINode Title="FakeWorkflowContext.MessageName property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_MessageName.htm" />
-  <HelpKINode Title="FakeWorkflowContext.Mode property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Mode.htm" />
-  <HelpKINode Title="FakeWorkflowContext.OperationCreatedOn property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OperationCreatedOn.htm" />
-  <HelpKINode Title="FakeWorkflowContext.OperationId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OperationId.htm" />
-  <HelpKINode Title="FakeWorkflowContext.OrganizationId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OrganizationId.htm" />
-  <HelpKINode Title="FakeWorkflowContext.OrganizationName property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OrganizationName.htm" />
-  <HelpKINode Title="FakeWorkflowContext.OutputParameters property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OutputParameters.htm" />
-  <HelpKINode Title="FakeWorkflowContext.OwningExtension property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OwningExtension.htm" />
-  <HelpKINode Title="FakeWorkflowContext.ParentContext property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_ParentContext.htm" />
-  <HelpKINode Title="FakeWorkflowContext.PostEntityImages property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PostEntityImages.htm" />
-  <HelpKINode Title="FakeWorkflowContext.PreEntityImages property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PreEntityImages.htm" />
-  <HelpKINode Title="FakeWorkflowContext.PrimaryEntityId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PrimaryEntityId.htm" />
-  <HelpKINode Title="FakeWorkflowContext.PrimaryEntityName property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PrimaryEntityName.htm" />
-  <HelpKINode Title="FakeWorkflowContext.RequestId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_RequestId.htm" />
-  <HelpKINode Title="FakeWorkflowContext.SecondaryEntityName property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SecondaryEntityName.htm" />
-  <HelpKINode Title="FakeWorkflowContext.SharedVariables property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SharedVariables.htm" />
-  <HelpKINode Title="FakeWorkflowContext.StageName property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_StageName.htm" />
-  <HelpKINode Title="FakeWorkflowContext.UserId property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_UserId.htm" />
-  <HelpKINode Title="FakeWorkflowContext.WorkflowCategory property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowCategory.htm" />
-  <HelpKINode Title="FakeWorkflowContext.WorkflowMode property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowMode.htm" />
-  <HelpKINode Title="GetService method" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
-  <HelpKINode Title="InitiatingUserId property">
-    <HelpKINode Title="FakePluginExecutionContext.InitiatingUserId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InitiatingUserId.htm" />
-    <HelpKINode Title="FakeWorkflowContext.InitiatingUserId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_InitiatingUserId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.BusinessUnitId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_BusinessUnitId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.CorrelationId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_CorrelationId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.Depth свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Depth.htm" />
+  <HelpKINode Title="FakeWorkflowContext.FakeWorkflowContext конструктор" Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm" />
+  <HelpKINode Title="FakeWorkflowContext.InitiatingUserId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_InitiatingUserId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.InputParameters свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_InputParameters.htm" />
+  <HelpKINode Title="FakeWorkflowContext.IsExecutingOffline свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsExecutingOffline.htm" />
+  <HelpKINode Title="FakeWorkflowContext.IsInTransaction свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsInTransaction.htm" />
+  <HelpKINode Title="FakeWorkflowContext.IsOfflinePlayback свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsOfflinePlayback.htm" />
+  <HelpKINode Title="FakeWorkflowContext.IsolationMode свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsolationMode.htm" />
+  <HelpKINode Title="FakeWorkflowContext.MessageName свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_MessageName.htm" />
+  <HelpKINode Title="FakeWorkflowContext.Mode свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Mode.htm" />
+  <HelpKINode Title="FakeWorkflowContext.OperationCreatedOn свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OperationCreatedOn.htm" />
+  <HelpKINode Title="FakeWorkflowContext.OperationId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OperationId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.OrganizationId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OrganizationId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.OrganizationName свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OrganizationName.htm" />
+  <HelpKINode Title="FakeWorkflowContext.OutputParameters свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OutputParameters.htm" />
+  <HelpKINode Title="FakeWorkflowContext.OwningExtension свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OwningExtension.htm" />
+  <HelpKINode Title="FakeWorkflowContext.ParentContext свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_ParentContext.htm" />
+  <HelpKINode Title="FakeWorkflowContext.PostEntityImages свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PostEntityImages.htm" />
+  <HelpKINode Title="FakeWorkflowContext.PreEntityImages свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PreEntityImages.htm" />
+  <HelpKINode Title="FakeWorkflowContext.PrimaryEntityId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PrimaryEntityId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.PrimaryEntityName свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PrimaryEntityName.htm" />
+  <HelpKINode Title="FakeWorkflowContext.RequestId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_RequestId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.SecondaryEntityName свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SecondaryEntityName.htm" />
+  <HelpKINode Title="FakeWorkflowContext.SharedVariables свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SharedVariables.htm" />
+  <HelpKINode Title="FakeWorkflowContext.StageName свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_StageName.htm" />
+  <HelpKINode Title="FakeWorkflowContext.UserId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_UserId.htm" />
+  <HelpKINode Title="FakeWorkflowContext.WorkflowCategory свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowCategory.htm" />
+  <HelpKINode Title="FakeWorkflowContext.WorkflowMode свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowMode.htm" />
+  <HelpKINode Title="GetService метод" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
+  <HelpKINode Title="InitiatingUserId свойство">
+    <HelpKINode Title="FakePluginExecutionContext.InitiatingUserId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InitiatingUserId.htm" />
+    <HelpKINode Title="FakeWorkflowContext.InitiatingUserId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_InitiatingUserId.htm" />
   </HelpKINode>
-  <HelpKINode Title="InputParameters property">
-    <HelpKINode Title="FakePluginExecutionContext.InputParameters Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InputParameters.htm" />
-    <HelpKINode Title="FakeWorkflowContext.InputParameters Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_InputParameters.htm" />
+  <HelpKINode Title="InputParameters свойство">
+    <HelpKINode Title="FakePluginExecutionContext.InputParameters - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InputParameters.htm" />
+    <HelpKINode Title="FakeWorkflowContext.InputParameters - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_InputParameters.htm" />
   </HelpKINode>
-  <HelpKINode Title="Integration field" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
-  <HelpKINode Title="IsExecutingOffline property">
-    <HelpKINode Title="FakePluginExecutionContext.IsExecutingOffline Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsExecutingOffline.htm" />
-    <HelpKINode Title="FakeWorkflowContext.IsExecutingOffline Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsExecutingOffline.htm" />
+  <HelpKINode Title="Integration поле" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
+  <HelpKINode Title="IsExecutingOffline свойство">
+    <HelpKINode Title="FakePluginExecutionContext.IsExecutingOffline - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsExecutingOffline.htm" />
+    <HelpKINode Title="FakeWorkflowContext.IsExecutingOffline - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsExecutingOffline.htm" />
   </HelpKINode>
-  <HelpKINode Title="IsInTransaction property">
-    <HelpKINode Title="FakePluginExecutionContext.IsInTransaction Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsInTransaction.htm" />
-    <HelpKINode Title="FakeWorkflowContext.IsInTransaction Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsInTransaction.htm" />
+  <HelpKINode Title="IsInTransaction свойство">
+    <HelpKINode Title="FakePluginExecutionContext.IsInTransaction - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsInTransaction.htm" />
+    <HelpKINode Title="FakeWorkflowContext.IsInTransaction - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsInTransaction.htm" />
   </HelpKINode>
-  <HelpKINode Title="IsOfflinePlayback property">
-    <HelpKINode Title="FakePluginExecutionContext.IsOfflinePlayback Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsOfflinePlayback.htm" />
-    <HelpKINode Title="FakeWorkflowContext.IsOfflinePlayback Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsOfflinePlayback.htm" />
+  <HelpKINode Title="IsOfflinePlayback свойство">
+    <HelpKINode Title="FakePluginExecutionContext.IsOfflinePlayback - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsOfflinePlayback.htm" />
+    <HelpKINode Title="FakeWorkflowContext.IsOfflinePlayback - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsOfflinePlayback.htm" />
   </HelpKINode>
-  <HelpKINode Title="IsolationMode property">
-    <HelpKINode Title="FakePluginExecutionContext.IsolationMode Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsolationMode.htm" />
-    <HelpKINode Title="FakeWorkflowContext.IsolationMode Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsolationMode.htm" />
+  <HelpKINode Title="IsolationMode свойство">
+    <HelpKINode Title="FakePluginExecutionContext.IsolationMode - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsolationMode.htm" />
+    <HelpKINode Title="FakeWorkflowContext.IsolationMode - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsolationMode.htm" />
   </HelpKINode>
-  <HelpKINode Title="MessageName property">
-    <HelpKINode Title="FakePluginExecutionContext.MessageName Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_MessageName.htm" />
-    <HelpKINode Title="FakeWorkflowContext.MessageName Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_MessageName.htm" />
+  <HelpKINode Title="MessageName свойство">
+    <HelpKINode Title="FakePluginExecutionContext.MessageName - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_MessageName.htm" />
+    <HelpKINode Title="FakeWorkflowContext.MessageName - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_MessageName.htm" />
   </HelpKINode>
-  <HelpKINode Title="Mode property">
-    <HelpKINode Title="FakePluginExecutionContext.Mode Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Mode.htm" />
-    <HelpKINode Title="FakeWorkflowContext.Mode Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Mode.htm" />
+  <HelpKINode Title="Mode свойство">
+    <HelpKINode Title="FakePluginExecutionContext.Mode - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Mode.htm" />
+    <HelpKINode Title="FakeWorkflowContext.Mode - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Mode.htm" />
   </HelpKINode>
-  <HelpKINode Title="OperationCreatedOn property">
-    <HelpKINode Title="FakePluginExecutionContext.OperationCreatedOn Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OperationCreatedOn.htm" />
-    <HelpKINode Title="FakeWorkflowContext.OperationCreatedOn Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OperationCreatedOn.htm" />
+  <HelpKINode Title="OperationCreatedOn свойство">
+    <HelpKINode Title="FakePluginExecutionContext.OperationCreatedOn - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OperationCreatedOn.htm" />
+    <HelpKINode Title="FakeWorkflowContext.OperationCreatedOn - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OperationCreatedOn.htm" />
   </HelpKINode>
-  <HelpKINode Title="OperationId property">
-    <HelpKINode Title="FakePluginExecutionContext.OperationId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OperationId.htm" />
-    <HelpKINode Title="FakeWorkflowContext.OperationId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OperationId.htm" />
+  <HelpKINode Title="OperationId свойство">
+    <HelpKINode Title="FakePluginExecutionContext.OperationId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OperationId.htm" />
+    <HelpKINode Title="FakeWorkflowContext.OperationId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OperationId.htm" />
   </HelpKINode>
-  <HelpKINode Title="OrganizationId property">
-    <HelpKINode Title="FakePluginExecutionContext.OrganizationId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OrganizationId.htm" />
-    <HelpKINode Title="FakeWorkflowContext.OrganizationId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OrganizationId.htm" />
+  <HelpKINode Title="OrganizationId свойство">
+    <HelpKINode Title="FakePluginExecutionContext.OrganizationId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OrganizationId.htm" />
+    <HelpKINode Title="FakeWorkflowContext.OrganizationId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OrganizationId.htm" />
   </HelpKINode>
-  <HelpKINode Title="OrganizationName property">
-    <HelpKINode Title="FakePluginExecutionContext.OrganizationName Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OrganizationName.htm" />
-    <HelpKINode Title="FakeWorkflowContext.OrganizationName Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OrganizationName.htm" />
+  <HelpKINode Title="OrganizationName свойство">
+    <HelpKINode Title="FakePluginExecutionContext.OrganizationName - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OrganizationName.htm" />
+    <HelpKINode Title="FakeWorkflowContext.OrganizationName - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OrganizationName.htm" />
   </HelpKINode>
-  <HelpKINode Title="OutputParameters property">
-    <HelpKINode Title="FakePluginExecutionContext.OutputParameters Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OutputParameters.htm" />
-    <HelpKINode Title="FakeWorkflowContext.OutputParameters Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OutputParameters.htm" />
+  <HelpKINode Title="OutputParameters свойство">
+    <HelpKINode Title="FakePluginExecutionContext.OutputParameters - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OutputParameters.htm" />
+    <HelpKINode Title="FakeWorkflowContext.OutputParameters - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OutputParameters.htm" />
   </HelpKINode>
-  <HelpKINode Title="OwningExtension property">
-    <HelpKINode Title="FakePluginExecutionContext.OwningExtension Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OwningExtension.htm" />
-    <HelpKINode Title="FakeWorkflowContext.OwningExtension Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OwningExtension.htm" />
+  <HelpKINode Title="OwningExtension свойство">
+    <HelpKINode Title="FakePluginExecutionContext.OwningExtension - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_OwningExtension.htm" />
+    <HelpKINode Title="FakeWorkflowContext.OwningExtension - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_OwningExtension.htm" />
   </HelpKINode>
-  <HelpKINode Title="ParentContext property">
-    <HelpKINode Title="FakePluginExecutionContext.ParentContext Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_ParentContext.htm" />
-    <HelpKINode Title="FakeWorkflowContext.ParentContext Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_ParentContext.htm" />
+  <HelpKINode Title="ParentContext свойство">
+    <HelpKINode Title="FakePluginExecutionContext.ParentContext - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_ParentContext.htm" />
+    <HelpKINode Title="FakeWorkflowContext.ParentContext - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_ParentContext.htm" />
   </HelpKINode>
-  <HelpKINode Title="PostEntityImages property">
-    <HelpKINode Title="FakePluginExecutionContext.PostEntityImages Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PostEntityImages.htm" />
-    <HelpKINode Title="FakeWorkflowContext.PostEntityImages Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PostEntityImages.htm" />
+  <HelpKINode Title="PostEntityImages свойство">
+    <HelpKINode Title="FakePluginExecutionContext.PostEntityImages - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PostEntityImages.htm" />
+    <HelpKINode Title="FakeWorkflowContext.PostEntityImages - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PostEntityImages.htm" />
   </HelpKINode>
-  <HelpKINode Title="PreEntityImages property">
-    <HelpKINode Title="FakePluginExecutionContext.PreEntityImages Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PreEntityImages.htm" />
-    <HelpKINode Title="FakeWorkflowContext.PreEntityImages Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PreEntityImages.htm" />
+  <HelpKINode Title="PreEntityImages свойство">
+    <HelpKINode Title="FakePluginExecutionContext.PreEntityImages - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PreEntityImages.htm" />
+    <HelpKINode Title="FakeWorkflowContext.PreEntityImages - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PreEntityImages.htm" />
   </HelpKINode>
-  <HelpKINode Title="PrimaryEntityId property">
-    <HelpKINode Title="FakePluginExecutionContext.PrimaryEntityId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PrimaryEntityId.htm" />
-    <HelpKINode Title="FakeWorkflowContext.PrimaryEntityId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PrimaryEntityId.htm" />
+  <HelpKINode Title="PrimaryEntityId свойство">
+    <HelpKINode Title="FakePluginExecutionContext.PrimaryEntityId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PrimaryEntityId.htm" />
+    <HelpKINode Title="FakeWorkflowContext.PrimaryEntityId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PrimaryEntityId.htm" />
   </HelpKINode>
-  <HelpKINode Title="PrimaryEntityName property">
-    <HelpKINode Title="FakePluginExecutionContext.PrimaryEntityName Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PrimaryEntityName.htm" />
-    <HelpKINode Title="FakeWorkflowContext.PrimaryEntityName Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PrimaryEntityName.htm" />
+  <HelpKINode Title="PrimaryEntityName свойство">
+    <HelpKINode Title="FakePluginExecutionContext.PrimaryEntityName - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_PrimaryEntityName.htm" />
+    <HelpKINode Title="FakeWorkflowContext.PrimaryEntityName - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_PrimaryEntityName.htm" />
   </HelpKINode>
-  <HelpKINode Title="PZone.Xrm.Testing namespace" Url="html/N_PZone_Xrm_Testing.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.EntityExtensions class" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.FakeOrganizationService class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.FakeOrganizationServiceFactory class" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.FakePluginExecutionContext class" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.FakeServiceProvider class" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.FakeTracingService class" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.TestCategory class" Url="html/T_PZone_Xrm_Testing_TestCategory.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.Workflow namespace" Url="html/N_PZone_Xrm_Testing_Workflow.htm" />
-  <HelpKINode Title="PZone.Xrm.Testing.Workflow.FakeWorkflowContext class" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
-  <HelpKINode Title="RequestId property">
-    <HelpKINode Title="FakePluginExecutionContext.RequestId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_RequestId.htm" />
-    <HelpKINode Title="FakeWorkflowContext.RequestId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_RequestId.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing - пространство имён" Url="html/N_PZone_Xrm_Testing.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.EntityExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.FakeOrganizationService - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.FakeOrganizationServiceFactory - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.FakePluginExecutionContext - класс" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.FakeServiceProvider - класс" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.FakeTracingService - класс" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.TestCategory - класс" Url="html/T_PZone_Xrm_Testing_TestCategory.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.Workflow - пространство имён" Url="html/N_PZone_Xrm_Testing_Workflow.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.Workflow.FakeWorkflowContext - класс" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
+  <HelpKINode Title="RequestId свойство">
+    <HelpKINode Title="FakePluginExecutionContext.RequestId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_RequestId.htm" />
+    <HelpKINode Title="FakeWorkflowContext.RequestId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_RequestId.htm" />
   </HelpKINode>
-  <HelpKINode Title="Retrieve method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Retrieve.htm" />
-  <HelpKINode Title="RetrieveMultiple method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_RetrieveMultiple.htm" />
-  <HelpKINode Title="SecondaryEntityName property">
-    <HelpKINode Title="FakePluginExecutionContext.SecondaryEntityName Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SecondaryEntityName.htm" />
-    <HelpKINode Title="FakeWorkflowContext.SecondaryEntityName Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SecondaryEntityName.htm" />
+  <HelpKINode Title="Retrieve метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Retrieve.htm" />
+  <HelpKINode Title="RetrieveMultiple метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_RetrieveMultiple.htm" />
+  <HelpKINode Title="SecondaryEntityName свойство">
+    <HelpKINode Title="FakePluginExecutionContext.SecondaryEntityName - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SecondaryEntityName.htm" />
+    <HelpKINode Title="FakeWorkflowContext.SecondaryEntityName - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SecondaryEntityName.htm" />
   </HelpKINode>
-  <HelpKINode Title="SharedVariables property">
-    <HelpKINode Title="FakePluginExecutionContext.SharedVariables Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SharedVariables.htm" />
-    <HelpKINode Title="FakeWorkflowContext.SharedVariables Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SharedVariables.htm" />
+  <HelpKINode Title="SharedVariables свойство">
+    <HelpKINode Title="FakePluginExecutionContext.SharedVariables - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SharedVariables.htm" />
+    <HelpKINode Title="FakeWorkflowContext.SharedVariables - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SharedVariables.htm" />
   </HelpKINode>
-  <HelpKINode Title="Stage property" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Stage.htm" />
-  <HelpKINode Title="StageName property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_StageName.htm" />
-  <HelpKINode Title="TestCategory class">
-    <HelpKINode Title="TestCategory Class" Url="html/T_PZone_Xrm_Testing_TestCategory.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm" />
+  <HelpKINode Title="Stage свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Stage.htm" />
+  <HelpKINode Title="StageName свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_StageName.htm" />
+  <HelpKINode Title="TestCategory - класс">
+    <HelpKINode Title="TestCategory - класс" Url="html/T_PZone_Xrm_Testing_TestCategory.htm" />
+    <HelpKINode Title="поля" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm" />
   </HelpKINode>
-  <HelpKINode Title="TestCategory.Integration field" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
-  <HelpKINode Title="Trace method" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
-  <HelpKINode Title="Update method" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
-  <HelpKINode Title="UserId property">
-    <HelpKINode Title="FakePluginExecutionContext.UserId Property " Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_UserId.htm" />
-    <HelpKINode Title="FakeWorkflowContext.UserId Property " Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_UserId.htm" />
+  <HelpKINode Title="TestCategory.Integration поле" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
+  <HelpKINode Title="Trace метод" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
+  <HelpKINode Title="Update метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
+  <HelpKINode Title="UserId свойство">
+    <HelpKINode Title="FakePluginExecutionContext.UserId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_UserId.htm" />
+    <HelpKINode Title="FakeWorkflowContext.UserId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_UserId.htm" />
   </HelpKINode>
-  <HelpKINode Title="WorkflowCategory property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowCategory.htm" />
-  <HelpKINode Title="WorkflowMode property" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowMode.htm" />
+  <HelpKINode Title="WorkflowCategory свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowCategory.htm" />
+  <HelpKINode Title="WorkflowMode свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowMode.htm" />
 </HelpKI>
