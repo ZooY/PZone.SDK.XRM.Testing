@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZone.Xrm.Testing", "PZone.Xrm.Testing\PZone.Xrm.Testing.csproj", "{3B373B19-493E-432C-AF05-0B2B78CD2C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZone.Xrm.Testing Tests", "PZone.Xrm.Testing Tests\PZone.Xrm.Testing Tests.csproj", "{3359E9BA-88FF-410D-8986-3D81038D1AEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{3B373B19-493E-432C-AF05-0B2B78CD2C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B373B19-493E-432C-AF05-0B2B78CD2C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B373B19-493E-432C-AF05-0B2B78CD2C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3359E9BA-88FF-410D-8986-3D81038D1AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3359E9BA-88FF-410D-8986-3D81038D1AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3359E9BA-88FF-410D-8986-3D81038D1AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3359E9BA-88FF-410D-8986-3D81038D1AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7CF0510-CDE0-452D-B014-024F92174400}
 	EndGlobalSection
 EndGlobal

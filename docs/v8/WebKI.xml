@@ -27,9 +27,15 @@
     <HelpKINode Title="EntityExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_EntityExtensions.htm" />
   </HelpKINode>
-  <HelpKINode Title="EntityExtensions.EntityInfo метод" Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
-  <HelpKINode Title="EntityInfo метод" Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
+  <HelpKINode Title="EntityExtensions.ToPlainText метод" Url="html/M_PZone_Xrm_Testing_EntityExtensions_ToPlainText.htm" />
+  <HelpKINode Title="EntityReferenceExtensions - класс">
+    <HelpKINode Title="EntityReferenceExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityReferenceExtensions.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_EntityReferenceExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EntityReferenceExtensions.ToPlainString метод" Url="html/M_PZone_Xrm_Testing_EntityReferenceExtensions_ToPlainString.htm" />
+  <HelpKINode Title="EntityReferenceExtensions.ToPlainText метод" Url="html/M_PZone_Xrm_Testing_EntityReferenceExtensions_ToPlainText.htm" />
   <HelpKINode Title="Execute метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Execute.htm" />
+  <HelpKINode Title="ExecutedRequests свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_ExecutedRequests.htm" />
   <HelpKINode Title="FakeOrganizationService - класс">
     <HelpKINode Title="FakeOrganizationService - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
     <HelpKINode Title="конструктор" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
@@ -47,10 +53,23 @@
   <HelpKINode Title="FakeOrganizationService.Entities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_Entities.htm" />
   <HelpKINode Title="FakeOrganizationService.EntitiesMetadata свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_EntitiesMetadata.htm" />
   <HelpKINode Title="FakeOrganizationService.Execute метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Execute.htm" />
+  <HelpKINode Title="FakeOrganizationService.ExecutedRequests свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_ExecutedRequests.htm" />
   <HelpKINode Title="FakeOrganizationService.FakeOrganizationService конструктор" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
+  <HelpKINode Title="FakeOrganizationService.GetFetchXmlEntity метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_GetFetchXmlEntity.htm" />
+  <HelpKINode Title="FakeOrganizationService.LogRetrieved метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_LogRetrieved.htm" />
   <HelpKINode Title="FakeOrganizationService.Retrieve метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Retrieve.htm" />
   <HelpKINode Title="FakeOrganizationService.RetrieveMultiple метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_RetrieveMultiple.htm" />
   <HelpKINode Title="FakeOrganizationService.Update метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
+  <HelpKINode Title="FakeOrganizationService.UpdatedEntities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_UpdatedEntities.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseExecuteMultipleRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseExecuteMultipleRequest.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseFetchExpression метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseFetchExpression.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseQueryByAttribute метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseQueryByAttribute.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseQueryExpression метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseQueryExpression.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseRetrieve метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieve.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseRetrieveAllEntitiesRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveAllEntitiesRequest.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseRetrieveAttributeRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveAttributeRequest.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseRetrieveEntityRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveEntityRequest.htm" />
+  <HelpKINode Title="FakeOrganizationService.UseSetStateRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseSetStateRequest.htm" />
   <HelpKINode Title="FakeOrganizationServiceFactory - класс">
     <HelpKINode Title="FakeOrganizationServiceFactory - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
     <HelpKINode Title="конструктор" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
@@ -142,6 +161,7 @@
   <HelpKINode Title="FakeWorkflowContext.UserId свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_UserId.htm" />
   <HelpKINode Title="FakeWorkflowContext.WorkflowCategory свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowCategory.htm" />
   <HelpKINode Title="FakeWorkflowContext.WorkflowMode свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowMode.htm" />
+  <HelpKINode Title="GetFetchXmlEntity метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_GetFetchXmlEntity.htm" />
   <HelpKINode Title="GetService метод" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
   <HelpKINode Title="InitiatingUserId свойство">
     <HelpKINode Title="FakePluginExecutionContext.InitiatingUserId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_InitiatingUserId.htm" />
@@ -168,6 +188,7 @@
     <HelpKINode Title="FakePluginExecutionContext.IsolationMode - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_IsolationMode.htm" />
     <HelpKINode Title="FakeWorkflowContext.IsolationMode - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_IsolationMode.htm" />
   </HelpKINode>
+  <HelpKINode Title="LogRetrieved метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_LogRetrieved.htm" />
   <HelpKINode Title="MessageName свойство">
     <HelpKINode Title="FakePluginExecutionContext.MessageName - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_MessageName.htm" />
     <HelpKINode Title="FakeWorkflowContext.MessageName - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_MessageName.htm" />
@@ -222,14 +243,28 @@
   </HelpKINode>
   <HelpKINode Title="PZone.Xrm.Testing - пространство имён" Url="html/N_PZone_Xrm_Testing.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.EntityExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.EntityReferenceExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityReferenceExtensions.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.FakeOrganizationService - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.FakeOrganizationServiceFactory - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.FakePluginExecutionContext - класс" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.FakeServiceProvider - класс" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.FakeTracingService - класс" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.QueryByAttributeExtentions - класс" Url="html/T_PZone_Xrm_Testing_QueryByAttributeExtentions.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.QueryExpressionExtensions - класс" Url="html/T_PZone_Xrm_Testing_QueryExpressionExtensions.htm" />
+  <HelpKINode Title="PZone.Xrm.Testing.SetStateRequestExtentions - класс" Url="html/T_PZone_Xrm_Testing_SetStateRequestExtentions.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.TestCategory - класс" Url="html/T_PZone_Xrm_Testing_TestCategory.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.Workflow - пространство имён" Url="html/N_PZone_Xrm_Testing_Workflow.htm" />
   <HelpKINode Title="PZone.Xrm.Testing.Workflow.FakeWorkflowContext - класс" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm" />
+  <HelpKINode Title="QueryByAttributeExtentions - класс">
+    <HelpKINode Title="QueryByAttributeExtentions - класс" Url="html/T_PZone_Xrm_Testing_QueryByAttributeExtentions.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_QueryByAttributeExtentions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryByAttributeExtentions.ToPlainText метод" Url="html/M_PZone_Xrm_Testing_QueryByAttributeExtentions_ToPlainText.htm" />
+  <HelpKINode Title="QueryExpressionExtensions - класс">
+    <HelpKINode Title="QueryExpressionExtensions - класс" Url="html/T_PZone_Xrm_Testing_QueryExpressionExtensions.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_QueryExpressionExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryExpressionExtensions.ToPlainText метод" Url="html/M_PZone_Xrm_Testing_QueryExpressionExtensions_ToPlainText.htm" />
   <HelpKINode Title="RequestId свойство">
     <HelpKINode Title="FakePluginExecutionContext.RequestId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_RequestId.htm" />
     <HelpKINode Title="FakeWorkflowContext.RequestId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_RequestId.htm" />
@@ -240,6 +275,11 @@
     <HelpKINode Title="FakePluginExecutionContext.SecondaryEntityName - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SecondaryEntityName.htm" />
     <HelpKINode Title="FakeWorkflowContext.SecondaryEntityName - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SecondaryEntityName.htm" />
   </HelpKINode>
+  <HelpKINode Title="SetStateRequestExtentions - класс">
+    <HelpKINode Title="SetStateRequestExtentions - класс" Url="html/T_PZone_Xrm_Testing_SetStateRequestExtentions.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Xrm_Testing_SetStateRequestExtentions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetStateRequestExtentions.ToPlainText метод" Url="html/M_PZone_Xrm_Testing_SetStateRequestExtentions_ToPlainText.htm" />
   <HelpKINode Title="SharedVariables свойство">
     <HelpKINode Title="FakePluginExecutionContext.SharedVariables - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_SharedVariables.htm" />
     <HelpKINode Title="FakeWorkflowContext.SharedVariables - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_SharedVariables.htm" />
@@ -251,12 +291,30 @@
     <HelpKINode Title="поля" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm" />
   </HelpKINode>
   <HelpKINode Title="TestCategory.Integration поле" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
+  <HelpKINode Title="ToPlainString метод" Url="html/M_PZone_Xrm_Testing_EntityReferenceExtensions_ToPlainString.htm" />
+  <HelpKINode Title="ToPlainText метод">
+    <HelpKINode Title="EntityExtensions.ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_EntityExtensions_ToPlainText.htm" />
+    <HelpKINode Title="EntityReferenceExtensions.ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_EntityReferenceExtensions_ToPlainText.htm" />
+    <HelpKINode Title="QueryByAttributeExtentions.ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_QueryByAttributeExtentions_ToPlainText.htm" />
+    <HelpKINode Title="QueryExpressionExtensions.ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_QueryExpressionExtensions_ToPlainText.htm" />
+    <HelpKINode Title="SetStateRequestExtentions.ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_SetStateRequestExtentions_ToPlainText.htm" />
+  </HelpKINode>
   <HelpKINode Title="Trace метод" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
   <HelpKINode Title="Update метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
+  <HelpKINode Title="UpdatedEntities свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_UpdatedEntities.htm" />
+  <HelpKINode Title="UseExecuteMultipleRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseExecuteMultipleRequest.htm" />
+  <HelpKINode Title="UseFetchExpression метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseFetchExpression.htm" />
+  <HelpKINode Title="UseQueryByAttribute метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseQueryByAttribute.htm" />
+  <HelpKINode Title="UseQueryExpression метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseQueryExpression.htm" />
+  <HelpKINode Title="UseRetrieve метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieve.htm" />
+  <HelpKINode Title="UseRetrieveAllEntitiesRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveAllEntitiesRequest.htm" />
+  <HelpKINode Title="UseRetrieveAttributeRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveAttributeRequest.htm" />
+  <HelpKINode Title="UseRetrieveEntityRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveEntityRequest.htm" />
   <HelpKINode Title="UserId свойство">
     <HelpKINode Title="FakePluginExecutionContext.UserId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_UserId.htm" />
     <HelpKINode Title="FakeWorkflowContext.UserId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_UserId.htm" />
   </HelpKINode>
+  <HelpKINode Title="UseSetStateRequest метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseSetStateRequest.htm" />
   <HelpKINode Title="WorkflowCategory свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowCategory.htm" />
   <HelpKINode Title="WorkflowMode свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_WorkflowMode.htm" />
 </HelpKI>

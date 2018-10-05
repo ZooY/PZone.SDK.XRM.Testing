@@ -1,49 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="51250d6e-2516-4b63-9fff-8680f05e1a28" Title="Пространства имен" Url="html/R_Project_Documentation.htm">
-    <HelpTOCNode Id="f9ace2ba-2f1e-4c62-91ba-f0e737cd7ef9" Title="PZone.Xrm.Testing" Url="html/N_PZone_Xrm_Testing.htm">
-      <HelpTOCNode Id="add5b216-7e6c-4a1d-a8bd-eca19a30d174" Title="EntityExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm">
-        <HelpTOCNode Id="4067f656-f312-4e8f-bdd8-3e68ab4814db" Title="EntityExtensions - методы" Url="html/Methods_T_PZone_Xrm_Testing_EntityExtensions.htm">
-          <HelpTOCNode Title="EntityInfo - метод" Url="html/M_PZone_Xrm_Testing_EntityExtensions_EntityInfo.htm" />
+  <HelpTOCNode Id="a0a44405-6f26-4f03-bd46-7c7c7c193008" Title="Пространства имен" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="ec0ee68a-7871-4a60-b372-2cf45abb9918" Title="PZone.Xrm.Testing" Url="html/N_PZone_Xrm_Testing.htm">
+      <HelpTOCNode Id="c4ebcd4e-456e-4d29-b1ad-d2c6035fa2ec" Title="EntityExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityExtensions.htm">
+        <HelpTOCNode Id="2c46502f-77f2-4844-8a7c-e7d2b5071be1" Title="EntityExtensions - методы" Url="html/Methods_T_PZone_Xrm_Testing_EntityExtensions.htm">
+          <HelpTOCNode Title="ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_EntityExtensions_ToPlainText.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7c529a9f-ace9-4f6a-93ba-dde05b2814c2" Title="FakeOrganizationService - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm">
+      <HelpTOCNode Id="bdcea267-9fb5-49c8-a992-8b6f2ea4dca8" Title="EntityReferenceExtensions - класс" Url="html/T_PZone_Xrm_Testing_EntityReferenceExtensions.htm">
+        <HelpTOCNode Id="9992d6cc-51f9-4235-bda0-2eaf0babce2b" Title="EntityReferenceExtensions - методы" Url="html/Methods_T_PZone_Xrm_Testing_EntityReferenceExtensions.htm">
+          <HelpTOCNode Title="ToPlainString - метод" Url="html/M_PZone_Xrm_Testing_EntityReferenceExtensions_ToPlainString.htm" />
+          <HelpTOCNode Title="ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_EntityReferenceExtensions_ToPlainText.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1aac5c49-c731-4436-b519-64a13f3f7466" Title="FakeOrganizationService - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationService.htm">
         <HelpTOCNode Title="FakeOrganizationService - конструктор" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService__ctor.htm" />
-        <HelpTOCNode Id="15d85466-1f46-4879-a84a-3d3c5c1b986c" Title="FakeOrganizationService - свойства" Url="html/Properties_T_PZone_Xrm_Testing_FakeOrganizationService.htm">
+        <HelpTOCNode Id="536adef8-81ef-496e-b8bf-96e42d6bcfc5" Title="FakeOrganizationService - свойства" Url="html/Properties_T_PZone_Xrm_Testing_FakeOrganizationService.htm">
           <HelpTOCNode Title="AttributesMetadata - свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_AttributesMetadata.htm" />
           <HelpTOCNode Title="CreatedEntities - свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_CreatedEntities.htm" />
           <HelpTOCNode Title="DeletedEntities - свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_DeletedEntities.htm" />
           <HelpTOCNode Title="Entities - свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_Entities.htm" />
           <HelpTOCNode Title="EntitiesMetadata - свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_EntitiesMetadata.htm" />
+          <HelpTOCNode Title="ExecutedRequests - свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_ExecutedRequests.htm" />
+          <HelpTOCNode Title="UpdatedEntities - свойство" Url="html/P_PZone_Xrm_Testing_FakeOrganizationService_UpdatedEntities.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5e5b72b5-c69a-4226-87a4-0cd4d1b58039" Title="FakeOrganizationService - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationService.htm">
+        <HelpTOCNode Id="92ca3de8-860f-4e27-a572-8a887c016a43" Title="FakeOrganizationService - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationService.htm">
           <HelpTOCNode Title="Associate - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Associate.htm" />
           <HelpTOCNode Title="Create - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Create.htm" />
           <HelpTOCNode Title="Delete - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Delete.htm" />
           <HelpTOCNode Title="Disassociate - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Disassociate.htm" />
           <HelpTOCNode Title="Dispose - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Dispose.htm" />
           <HelpTOCNode Title="Execute - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Execute.htm" />
+          <HelpTOCNode Title="GetFetchXmlEntity - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_GetFetchXmlEntity.htm" />
+          <HelpTOCNode Title="LogRetrieved - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_LogRetrieved.htm" />
           <HelpTOCNode Title="Retrieve - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Retrieve.htm" />
           <HelpTOCNode Title="RetrieveMultiple - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_RetrieveMultiple.htm" />
           <HelpTOCNode Title="Update - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_Update.htm" />
+          <HelpTOCNode Title="UseExecuteMultipleRequest - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseExecuteMultipleRequest.htm" />
+          <HelpTOCNode Title="UseFetchExpression - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseFetchExpression.htm" />
+          <HelpTOCNode Title="UseQueryByAttribute - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseQueryByAttribute.htm" />
+          <HelpTOCNode Title="UseQueryExpression - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseQueryExpression.htm" />
+          <HelpTOCNode Title="UseRetrieve - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieve.htm" />
+          <HelpTOCNode Title="UseRetrieveAllEntitiesRequest - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveAllEntitiesRequest.htm" />
+          <HelpTOCNode Title="UseRetrieveAttributeRequest - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveAttributeRequest.htm" />
+          <HelpTOCNode Title="UseRetrieveEntityRequest - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseRetrieveEntityRequest.htm" />
+          <HelpTOCNode Title="UseSetStateRequest - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationService_UseSetStateRequest.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="cea5d952-d71b-41d9-9c66-d31f535391c1" Title="FakeOrganizationServiceFactory - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm">
-        <HelpTOCNode Id="8b6bc418-9d5c-4e19-a737-6f46e6c6e280" Title="FakeOrganizationServiceFactory - конструктор" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm">
+      <HelpTOCNode Id="f2bd57b0-286c-4014-a326-17f667c4088d" Title="FakeOrganizationServiceFactory - класс" Url="html/T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm">
+        <HelpTOCNode Id="a4f14a76-f06e-4223-be46-f4bf81cd8364" Title="FakeOrganizationServiceFactory - конструктор" Url="html/Overload_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm">
           <HelpTOCNode Title="FakeOrganizationServiceFactory - конструктор" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor.htm" />
           <HelpTOCNode Title="FakeOrganizationServiceFactory(IOrganizationService) - конструктор" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b972174d-44e1-4346-81ca-160c4f7c8703" Title="FakeOrganizationServiceFactory - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm">
+        <HelpTOCNode Id="4f2affbd-6574-412a-be42-ce15036bce9c" Title="FakeOrganizationServiceFactory - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeOrganizationServiceFactory.htm">
           <HelpTOCNode Title="CreateOrganizationService - метод" Url="html/M_PZone_Xrm_Testing_FakeOrganizationServiceFactory_CreateOrganizationService.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="847b9b5e-3f44-4709-ab52-1864c0db68af" Title="FakePluginExecutionContext - класс" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm">
-        <HelpTOCNode Id="7338ffe4-8667-4b8c-a3f3-139692daf359" Title="FakePluginExecutionContext - конструктор" Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm">
+      <HelpTOCNode Id="6719bbe1-1a32-410d-9b3e-76885a716c5d" Title="FakePluginExecutionContext - класс" Url="html/T_PZone_Xrm_Testing_FakePluginExecutionContext.htm">
+        <HelpTOCNode Id="612d664d-6d82-4005-9ebc-ac880b173f48" Title="FakePluginExecutionContext - конструктор" Url="html/Overload_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm">
           <HelpTOCNode Title="FakePluginExecutionContext - конструктор" Url="html/M_PZone_Xrm_Testing_FakePluginExecutionContext__ctor.htm" />
           <HelpTOCNode Title="FakePluginExecutionContext(Entity) - конструктор" Url="html/M_PZone_Xrm_Testing_FakePluginExecutionContext__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="4cfa5831-3f65-4af1-b086-620640145cb6" Title="FakePluginExecutionContext - свойства" Url="html/Properties_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm">
+        <HelpTOCNode Id="09228f7c-bd17-48da-8d6f-caf81db7b9ab" Title="FakePluginExecutionContext - свойства" Url="html/Properties_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm">
           <HelpTOCNode Title="BusinessUnitId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_BusinessUnitId.htm" />
           <HelpTOCNode Title="CorrelationId - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_CorrelationId.htm" />
           <HelpTOCNode Title="Depth - свойство" Url="html/P_PZone_Xrm_Testing_FakePluginExecutionContext_Depth.htm" />
@@ -74,31 +93,46 @@
         </HelpTOCNode>
         <HelpTOCNode Title="FakePluginExecutionContext - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakePluginExecutionContext.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="92c8215f-1577-4a2b-b481-69cf8bcc2341" Title="FakeServiceProvider - класс" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm">
+      <HelpTOCNode Id="e3fd41c9-de8b-446c-8e52-8e21dba15f21" Title="FakeServiceProvider - класс" Url="html/T_PZone_Xrm_Testing_FakeServiceProvider.htm">
         <HelpTOCNode Title="FakeServiceProvider - конструктор" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider__ctor.htm" />
-        <HelpTOCNode Id="7c48af2e-6b61-4ac4-81e2-986ac0ade8c1" Title="FakeServiceProvider - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeServiceProvider.htm">
+        <HelpTOCNode Id="57c0150a-2000-4965-a995-c4d1eed59c4e" Title="FakeServiceProvider - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeServiceProvider.htm">
           <HelpTOCNode Title="GetService - метод" Url="html/M_PZone_Xrm_Testing_FakeServiceProvider_GetService.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="eb60c98c-d38c-4532-b651-558d31dc975e" Title="FakeTracingService - класс" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm">
+      <HelpTOCNode Id="04b43a2d-993c-4d48-8316-fc093c6f8aa4" Title="FakeTracingService - класс" Url="html/T_PZone_Xrm_Testing_FakeTracingService.htm">
         <HelpTOCNode Title="FakeTracingService - конструктор" Url="html/M_PZone_Xrm_Testing_FakeTracingService__ctor.htm" />
-        <HelpTOCNode Id="17754c11-31a8-4a02-8d06-a2d3bfa9c3fb" Title="FakeTracingService - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeTracingService.htm">
+        <HelpTOCNode Id="8269c1fc-4187-4754-95c8-679e80ce6c66" Title="FakeTracingService - методы" Url="html/Methods_T_PZone_Xrm_Testing_FakeTracingService.htm">
           <HelpTOCNode Title="Trace - метод" Url="html/M_PZone_Xrm_Testing_FakeTracingService_Trace.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="51c8d933-172f-4b2c-ada8-655635c19f34" Title="TestCategory - класс" Url="html/T_PZone_Xrm_Testing_TestCategory.htm">
-        <HelpTOCNode Id="88fb6943-1204-45bd-b6cd-bf057ab24e60" Title="TestCategory - поля" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm">
+      <HelpTOCNode Id="fdd84e00-2122-437b-b651-93f14b7710c5" Title="QueryByAttributeExtentions - класс" Url="html/T_PZone_Xrm_Testing_QueryByAttributeExtentions.htm">
+        <HelpTOCNode Id="9700a9fc-338f-4240-a4f3-4ebd295d8f39" Title="QueryByAttributeExtentions - методы" Url="html/Methods_T_PZone_Xrm_Testing_QueryByAttributeExtentions.htm">
+          <HelpTOCNode Title="ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_QueryByAttributeExtentions_ToPlainText.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a128a6c8-f233-4313-950c-d2aa82b8915c" Title="QueryExpressionExtensions - класс" Url="html/T_PZone_Xrm_Testing_QueryExpressionExtensions.htm">
+        <HelpTOCNode Id="2e2c023f-fe78-412d-8bf2-148ad0f72e7c" Title="QueryExpressionExtensions - методы" Url="html/Methods_T_PZone_Xrm_Testing_QueryExpressionExtensions.htm">
+          <HelpTOCNode Title="ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_QueryExpressionExtensions_ToPlainText.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="81ae2825-e56f-4c85-935f-af65c42d4c8f" Title="SetStateRequestExtentions - класс" Url="html/T_PZone_Xrm_Testing_SetStateRequestExtentions.htm">
+        <HelpTOCNode Id="dab4632c-4595-4f28-a880-b60a717ecc9f" Title="SetStateRequestExtentions - методы" Url="html/Methods_T_PZone_Xrm_Testing_SetStateRequestExtentions.htm">
+          <HelpTOCNode Title="ToPlainText - метод" Url="html/M_PZone_Xrm_Testing_SetStateRequestExtentions_ToPlainText.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6ef431cf-87c2-418e-a24d-56f6a684946c" Title="TestCategory - класс" Url="html/T_PZone_Xrm_Testing_TestCategory.htm">
+        <HelpTOCNode Id="219621fa-9620-46db-afe4-33a3006893da" Title="TestCategory - поля" Url="html/Fields_T_PZone_Xrm_Testing_TestCategory.htm">
           <HelpTOCNode Title="Integration - поле" Url="html/F_PZone_Xrm_Testing_TestCategory_Integration.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="68bec8bb-0e04-4747-b5f9-ef4b8578d203" Title="PZone.Xrm.Testing.Workflow" Url="html/N_PZone_Xrm_Testing_Workflow.htm">
-      <HelpTOCNode Id="0a75cd40-417e-4869-9a67-64dc3134e884" Title="FakeWorkflowContext - класс" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm">
-        <HelpTOCNode Id="516d61e8-7774-4bb6-8837-bf41a494f100" Title="FakeWorkflowContext - конструктор" Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm">
+    <HelpTOCNode Id="a4afc6de-caa0-4b08-947a-8ccf3bf7c35b" Title="PZone.Xrm.Testing.Workflow" Url="html/N_PZone_Xrm_Testing_Workflow.htm">
+      <HelpTOCNode Id="36d5e2d0-b263-42e1-bde5-65e44f6d3d7c" Title="FakeWorkflowContext - класс" Url="html/T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm">
+        <HelpTOCNode Id="a4ebc922-eb94-4574-b2dd-80a8f6e32e91" Title="FakeWorkflowContext - конструктор" Url="html/Overload_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm">
           <HelpTOCNode Title="FakeWorkflowContext - конструктор" Url="html/M_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor.htm" />
           <HelpTOCNode Title="FakeWorkflowContext(Entity) - конструктор" Url="html/M_PZone_Xrm_Testing_Workflow_FakeWorkflowContext__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9a5b7fa5-296a-4e97-8d59-7878d776fc55" Title="FakeWorkflowContext - свойства" Url="html/Properties_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm">
+        <HelpTOCNode Id="2950ed84-da26-4252-a570-e344f89393df" Title="FakeWorkflowContext - свойства" Url="html/Properties_T_PZone_Xrm_Testing_Workflow_FakeWorkflowContext.htm">
           <HelpTOCNode Title="BusinessUnitId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_BusinessUnitId.htm" />
           <HelpTOCNode Title="CorrelationId - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_CorrelationId.htm" />
           <HelpTOCNode Title="Depth - свойство" Url="html/P_PZone_Xrm_Testing_Workflow_FakeWorkflowContext_Depth.htm" />

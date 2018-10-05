@@ -6,48 +6,75 @@ using Microsoft.Xrm.Sdk;
 namespace PZone.Xrm.Testing
 {
     /// <summary>
-    /// Расширение стандартного функционала классов, реализующих интерфейс <see cref="Entity"/>.
+    /// Расширение стандартного функционала класса <see cref="Entity"/>.
     /// </summary>
     public static class EntityExtensions
-    // ReSharper restore CheckNamespace
+        // ReSharper restore CheckNamespace
     {
         /// <summary>
-        /// Получение данных сущности в виде строки.
+        /// Получение данных сущности в виде текста.
         /// </summary>
         /// <param name="entity">Экземпляр класса <see cref="Entity"/>.</param>
         /// <returns>
-        /// Метод возвращает все данные сущности в виде строки для отображения в окне вывода.
+        /// Метод возвращает все данные сущности в виде текста для отображения в окне вывода.
         /// </returns>
-        public static string EntityInfo(this Entity entity)
+        public static string ToPlainText(this Entity entity)
         {
             var sb = new StringBuilder();
             sb.AppendLine($"LogicalName = {entity.LogicalName}");
             sb.AppendLine($"ID = {entity.Id}");
-            sb.AppendLine(entity.EntityState.HasValue ? $"EntityState = {entity.EntityState.Value}" : "EntityState = null");
             foreach (var attribute in entity.Attributes)
             {
-                if (attribute.Value is EntityReference entityReference)
+                switch (attribute.Value)
                 {
-                    sb.AppendLine($"{attribute.Key} = {entityReference.LogicalName} | {entityReference.Id} | {entityReference.Name}");
+                    case EntityReference entityReference:
+                        sb.AppendLine($"{attribute.Key} = {entityReference.ToPlainString()}");
+                        break;
+                    case OptionSetValue optionSetValue:
+                        sb.AppendLine($"{attribute.Key} = {optionSetValue.Value} | {(entity.FormattedValues.Where(v => v.Key == attribute.Key).Select(v => v.Value).FirstOrDefault())}");
+                        break;
+                    case EntityCollection entityCollection:
+                    {
+                        sb.AppendLine(attribute.Key + " =>");
+                        foreach (var entityInCollection in entityCollection.Entities)
+                            sb.Append(entityInCollection.ToPlainText());
+                        break;
+                    }
+                    case Money money:
+                        sb.AppendLine($"{attribute.Key} = {money.Value}");
+                        break;
+                    case AliasedValue alias:
+                        switch (alias.Value)
+                        {
+                            //case EntityReference entityReference:
+                            //    sb.AppendLine($"{attribute.Key} = {entityReference.ToPlainString()}");
+                            //    break;
+                            //case OptionSetValue optionSetValue:
+                            //    sb.AppendLine($"{attribute.Key} = {optionSetValue.Value} | {(entity.FormattedValues.Where(v => v.Key == attribute.Key).Select(v => v.Value).FirstOrDefault())}");
+                            //    break;
+                            //case EntityCollection entityCollection:
+                            //{
+                            //    sb.AppendLine(attribute.Key + " =>");
+                            //    foreach (var entityInCollection in entityCollection.Entities)
+                            //        sb.Append(entityInCollection.ToPlainText());
+                            //    break;
+                            //}
+                            case Money money:
+                                sb.AppendLine($"{attribute.Key} = {money.Value}");
+                                break;
+                            default:
+                                sb.AppendLine($"{attribute.Key} = {attribute.Value}");
+                                break;
+                        }
+
+                        break;
+                    default:
+                        sb.AppendLine($"{attribute.Key} = {attribute.Value}");
+                        break;
                 }
-                else if (attribute.Value is OptionSetValue optionSetValue)
-                {
-                    sb.AppendLine($"{attribute.Key} = {optionSetValue.Value} | {(entity.FormattedValues.Where(v => v.Key == attribute.Key).Select(v => v.Value).FirstOrDefault())}");
-                }
-                else if (attribute.Value is EntityCollection entityCollection)
-                {
-                    sb.AppendLine(attribute.Key + " =>");
-                    foreach (var entityInCollection in entityCollection.Entities)
-                        sb.Append(entityInCollection.EntityInfo());
-                }
-                else if (attribute.Value is Money money)
-                {
-                    sb.AppendLine($"{attribute.Key} = {money.Value}");
-                }
-                else
-                    sb.AppendLine($"{attribute.Key} = {attribute.Value}");
             }
-            return sb.ToString();
+
+            return sb.ToString().TrimEnd();
         }
     }
 }

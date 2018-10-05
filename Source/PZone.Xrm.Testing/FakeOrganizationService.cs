@@ -1,8 +1,12 @@
-﻿using System;
+﻿// ReSharper disable CommentTypo
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
+using Microsoft.Crm.Sdk.Messages;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Messages;
 using Microsoft.Xrm.Sdk.Metadata;
@@ -35,6 +39,18 @@ namespace PZone.Xrm.Testing
         /// Записи, созданные методом <see cref="Create"/>.
         /// </summary>
         public List<Entity> CreatedEntities { get; set; } = new List<Entity>();
+
+
+        /// <summary>
+        /// Записи, измененные методом<see cref="Update"/>.
+        /// </summary>
+        public List<Entity> UpdatedEntities { get; set; } = new List<Entity>();
+
+
+        /// <summary>
+        /// Запросы, выполняемые методом <see cref="Execute"/>.
+        /// </summary>
+        public List<OrganizationRequest> ExecutedRequests { get; set; } = new List<OrganizationRequest>();
 
 
         /// <summary>
@@ -75,14 +91,15 @@ namespace PZone.Xrm.Testing
         {
             entity.Id = Guid.Empty;
             var sb = new StringBuilder();
-            sb.AppendLine("Create entity");
-            sb.AppendLine(entity.EntityInfo());
-            System.Diagnostics.Trace.Write(sb.ToString());
+            sb.AppendLine("=== Create entity ===");
+            sb.AppendLine();
+            sb.AppendLine(entity.ToPlainText());
+            System.Diagnostics.Trace.WriteLine(sb.ToString());
             CreatedEntities.Add(entity);
             return entity.Id;
         }
 
-        
+
         /// <summary>
         /// Запрос одной записи сущности.
         /// </summary>
@@ -92,40 +109,62 @@ namespace PZone.Xrm.Testing
         /// <returns>
         /// Метод возвращает подходящую запись из набора <see cref="Entities"/>.
         /// </returns>
-        public Entity Retrieve(string entityName, Guid id, ColumnSet columnSet)
+        public virtual Entity Retrieve(string entityName, Guid id, ColumnSet columnSet)
         {
             var sb = new StringBuilder();
             sb.AppendLine("=== Retrieve entity ===");
+            sb.AppendLine();
             sb.AppendLine($"EntityName = {entityName}");
             sb.AppendLine($"ID = {id}");
             sb.AppendLine(columnSet.AllColumns
                 ? "ColumnSet = All"
                 : $"ColumnSet = {string.Join(", ", columnSet.Columns)}");
-            System.Diagnostics.Trace.WriteLine(sb.ToString());
-            if (DeletedEntities.Contains(id))
+            sb.AppendLine();
+            Entity entity;
+            try
             {
-                throw new Exception("The record was previously removed");
+                entity = UseRetrieve(entityName, id, columnSet);
             }
-            var entity = Entities.FirstOrDefault(e => e.Id == id);
-            if (entity == null)
-                throw new Exception($"Record with ID = {id} is not found");
+            catch (Exception)
+            {
+                System.Diagnostics.Trace.WriteLine(sb.ToString());
+                throw;
+            }
+            sb.AppendLine("Retrieved entity");
+            sb.AppendLine();
+            sb.AppendLine(entity.ToPlainText());
+            System.Diagnostics.Trace.WriteLine(sb.ToString());
             return entity;
         }
 
 
-       /// <summary>
-       /// Обновление записи сущности.
-       /// </summary>
-       /// <param name="entity">Данные записи.</param>
-       /// <remarks>
-       /// Метод не производит действий с записью, а лишь отображает информацию о записи в окне трассировки.
-       /// </remarks>
+        public virtual Entity UseRetrieve(string entityName, Guid id, ColumnSet columnSet)
+        {
+            if (DeletedEntities.Contains(id))
+                throw new Exception("The record was previously removed");
+
+            var entity = Entities.FirstOrDefault(e => e.Id == id);
+            if (entity == null)
+                throw new Exception($"Record \"{entityName}\" with ID = {id} is not found");
+            return entity;
+        }
+
+
+        /// <summary>
+        /// Обновление записи сущности.
+        /// </summary>
+        /// <param name="entity">Данные записи.</param>
+        /// <remarks>
+        /// Метод не производит действий с записью, а лишь отображает информацию о записи в окне трассировки.
+        /// </remarks>
         public virtual void Update(Entity entity)
         {
             var sb = new StringBuilder();
-            sb.AppendLine("Update entity");
-            sb.AppendLine(entity.EntityInfo());
+            sb.AppendLine("=== Update entity ===");
+            sb.AppendLine();
+            sb.AppendLine(entity.ToPlainText());
             System.Diagnostics.Trace.WriteLine(sb.ToString());
+            UpdatedEntities.Add(entity);
         }
 
 
@@ -148,6 +187,9 @@ namespace PZone.Xrm.Testing
         }
 
 
+        #region Execute
+
+
         /// <summary>
         /// Выполнение запроса.
         /// </summary>
@@ -158,66 +200,125 @@ namespace PZone.Xrm.Testing
         /// <remarks>
         /// <para>Поддерживаемые типы запросов:</para>
         /// <list type="bullet">
-        /// <item><see cref="RetrieveAttributeRequest"/></item>
+        /// <item><see cref="Microsoft.Xrm.Sdk.Messages.RetrieveAttributeRequest"/></item>
         /// <item><see cref="RetrieveEntityRequest"/></item>
         /// <item><see cref="RetrieveAllEntitiesRequest"/></item>
-        /// <item><see cref="ExecuteMultipleRequest"/></item>
+        /// <item><see cref="Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest"/></item>
         /// </list>
         /// </remarks>
         public virtual OrganizationResponse Execute(OrganizationRequest request)
         {
-            if (request is RetrieveAttributeRequest retrieveAttributeRequest)
+            ExecutedRequests.Add(request);
+            var sb = new StringBuilder();
+            OrganizationResponse response;
+            try
             {
-                var attributeMetadata = AttributesMetadata.FirstOrDefault(e => e.LogicalName == retrieveAttributeRequest.LogicalName);
-                if (attributeMetadata == null)
-                    throw new Exception($"Attribute metadata with logical name = {retrieveAttributeRequest.LogicalName} is not found");
-                var response = new RetrieveAttributeResponse { ["AttributeMetadata"] = attributeMetadata };
-                return response;
-            }
-
-            if (request is RetrieveEntityRequest retrieveEntityRequest)
-            {
-                var entityMetadata = EntitiesMetadata.FirstOrDefault(e => e.LogicalName == retrieveEntityRequest.LogicalName);
-                if (entityMetadata == null)
-                    throw new Exception($"Entity metadata with logical name = {retrieveEntityRequest.LogicalName} is not found");
-                var response = new RetrieveEntityResponse { ["EntityMetadata"] = entityMetadata };
-                return response;
-            }
-            if (request is RetrieveAllEntitiesRequest)
-            {
-                var response = new RetrieveAllEntitiesResponse { ["EntityMetadata"] = EntitiesMetadata.ToArray() };
-                return response;
-            }
-
-            if (request is ExecuteMultipleRequest executeMultipleRequest)
-            {
-                var collection = new ExecuteMultipleResponseItemCollection();
-                var i = 0;
-                foreach (var requestItem in executeMultipleRequest.Requests)
+                switch (request)
                 {
-                    if (requestItem is CreateRequest createRequest)
-                    {
-                        var sb = new StringBuilder();
-                        sb.AppendLine("Create entity");
-                        createRequest.Target.Id = Guid.Empty;
-                        sb.AppendLine(createRequest.Target.EntityInfo());
-                        System.Diagnostics.Trace.Write(sb.ToString());
-                        var createResponse = new CreateResponse { ["Id"] = Guid.Empty };
-                        collection.Add(new ExecuteMultipleResponseItem
-                        {
-                            RequestIndex = i++,
-                            Response = createResponse,
-                            Fault = null
-                        });
-                        continue;
-                    }
-                    throw new NotImplementedException(requestItem.GetType().ToString());
+                    case RetrieveAttributeRequest retrieveAttributeRequest:
+                        sb.AppendLine("=== Retrieve Attribute Request ===");
+                        sb.AppendLine();
+                        response = UseRetrieveAttributeRequest(retrieveAttributeRequest);
+                        break;
+                    case RetrieveEntityRequest retrieveEntityRequest:
+                        sb.AppendLine("=== Retrieve Entity Request ===");
+                        sb.AppendLine();
+                        response = UseRetrieveEntityRequest(retrieveEntityRequest);
+                        break;
+                    case RetrieveAllEntitiesRequest retrieveAllEntitiesRequest:
+                        sb.AppendLine("=== Retrieve All Entities Request ===");
+                        sb.AppendLine();
+                        response = UseRetrieveAllEntitiesRequest(retrieveAllEntitiesRequest);
+                        break;
+                    case ExecuteMultipleRequest executeMultipleRequest:
+                        sb.AppendLine("=== Set State Request ===");
+                        sb.AppendLine();
+                        response = UseExecuteMultipleRequest(executeMultipleRequest);
+                        break;
+                    case SetStateRequest setStateRequest:
+                        sb.AppendLine("=== Set State Request ===");
+                        sb.AppendLine();
+                        sb.AppendLine(setStateRequest.ToPlainText());
+                        response = UseSetStateRequest(setStateRequest);
+                        break;
+                    default:
+                        throw new NotImplementedException(request.GetType().ToString());
                 }
-                var response = new ExecuteMultipleResponse { Results = { ["Responses"] = collection } };
-                return response;
             }
-            throw new NotImplementedException(request.GetType().ToString());
+            catch (Exception)
+            {
+                System.Diagnostics.Trace.WriteLine(sb.ToString());
+                throw;
+            }
+            System.Diagnostics.Trace.WriteLine(sb.ToString());
+            return response;
         }
+
+
+        public virtual OrganizationResponse UseRetrieveAttributeRequest(RetrieveAttributeRequest retrieveAttributeRequest)
+        {
+            var attributeMetadata = AttributesMetadata.FirstOrDefault(e => e.LogicalName == retrieveAttributeRequest.LogicalName);
+            if (attributeMetadata == null)
+                throw new Exception($"Attribute metadata with logical name = {retrieveAttributeRequest.LogicalName} is not found");
+            var response = new RetrieveAttributeResponse { ["AttributeMetadata"] = attributeMetadata };
+            return response;
+        }
+
+
+        public virtual OrganizationResponse UseRetrieveEntityRequest(RetrieveEntityRequest retrieveEntityRequest)
+        {
+            var entityMetadata = EntitiesMetadata.FirstOrDefault(e => e.LogicalName == retrieveEntityRequest.LogicalName);
+            if (entityMetadata == null)
+                throw new Exception($"Entity metadata with logical name = {retrieveEntityRequest.LogicalName} is not found");
+            var response = new RetrieveEntityResponse { ["EntityMetadata"] = entityMetadata };
+            return response;
+        }
+
+
+        public virtual OrganizationResponse UseRetrieveAllEntitiesRequest(RetrieveAllEntitiesRequest retrieveAllEntitiesRequest)
+        {
+            return new RetrieveAllEntitiesResponse { ["EntityMetadata"] = EntitiesMetadata.ToArray() };
+        }
+
+
+        public virtual OrganizationResponse UseExecuteMultipleRequest(ExecuteMultipleRequest executeMultipleRequest)
+        {
+            var collection = new ExecuteMultipleResponseItemCollection();
+            var i = 0;
+            foreach (var requestItem in executeMultipleRequest.Requests)
+            {
+                if (requestItem is CreateRequest createRequest)
+                {
+                    var sb = new StringBuilder();
+                    sb.AppendLine("Create entity");
+                    createRequest.Target.Id = Guid.Empty;
+                    sb.AppendLine(createRequest.Target.ToPlainText());
+                    System.Diagnostics.Trace.Write(sb.ToString());
+                    var createResponse = new CreateResponse { ["Id"] = Guid.Empty };
+                    collection.Add(new ExecuteMultipleResponseItem
+                    {
+                        RequestIndex = i++,
+                        Response = createResponse,
+                        Fault = null
+                    });
+                    continue;
+                }
+
+                throw new NotImplementedException(requestItem.GetType().ToString());
+            }
+
+            var response = new ExecuteMultipleResponse { Results = { ["Responses"] = collection } };
+            return response;
+        }
+
+
+        public virtual OrganizationResponse UseSetStateRequest(SetStateRequest setStateRequest)
+        {
+            return new OrganizationResponse();
+        }
+        
+
+        #endregion
 
 
         /// <summary>
@@ -232,7 +333,15 @@ namespace PZone.Xrm.Testing
         /// </remarks>
         public void Associate(string entityName, Guid entityId, Relationship relationship, EntityReferenceCollection relatedEntities)
         {
-            throw new NotImplementedException();
+            var sb = new StringBuilder();
+            sb.AppendLine("=== Associate entities ===");
+            sb.AppendLine();
+            sb.AppendLine($"Entity = {entityName} | {entityId}");
+            sb.AppendLine($"Relationship = {relationship.SchemaName})");
+            sb.AppendLine("Related Entities:");
+            foreach (var entityRef in relatedEntities)
+                sb.AppendLine("    " + entityRef.ToPlainString());
+            System.Diagnostics.Trace.WriteLine(sb.ToString());
         }
 
 
@@ -248,8 +357,19 @@ namespace PZone.Xrm.Testing
         /// </remarks>
         public void Disassociate(string entityName, Guid entityId, Relationship relationship, EntityReferenceCollection relatedEntities)
         {
-            throw new NotImplementedException();
+            var sb = new StringBuilder();
+            sb.AppendLine("=== Disassociate entities ===");
+            sb.AppendLine();
+            sb.AppendLine($"Entity = {entityName} | {entityId}");
+            sb.AppendLine($"Relationship = {relationship.SchemaName})");
+            sb.AppendLine("Related Entities:");
+            foreach (var entityRef in relatedEntities)
+                sb.AppendLine("    " + entityRef.ToPlainString());
+            System.Diagnostics.Trace.WriteLine(sb.ToString());
         }
+
+
+        #region RetrieveMultiple
 
 
         /// <summary>
@@ -269,23 +389,63 @@ namespace PZone.Xrm.Testing
         /// </remarks>
         public virtual EntityCollection RetrieveMultiple(QueryBase query)
         {
-            // ReSharper disable CanBeReplacedWithTryCastAndCheckForNull
-            if (query is QueryExpression)
-                return RetrieveMultiple((QueryExpression)query);
-            if (query is FetchExpression)
-                return RetrieveMultiple((FetchExpression)query);
-            if (query is QueryByAttribute)
-                return RetrieveMultiple((QueryByAttribute)query);
-            throw new NotImplementedException("RetrieveMultiple для данного вида запроса не реализован.");
-            // ReSharper restore CanBeReplacedWithTryCastAndCheckForNull
+            var sb = new StringBuilder();
+            EntityCollection entities;
+            try
+            {
+                switch (query)
+                {
+                    case QueryExpression queryExpression:
+                        sb.AppendLine("=== Retrieve entity collection by QueryExpression ===");
+                        sb.AppendLine();
+                        sb.AppendLine(queryExpression.ToPlainText());
+                        entities = UseQueryExpression(queryExpression);
+                        break;
+                    case FetchExpression fetchExpression:
+                        sb.AppendLine("=== Retrieve entity collection by FetchExpression ===");
+                        sb.AppendLine();
+                        sb.AppendLine(fetchExpression.Query.Trim());
+                        entities = UseFetchExpression(fetchExpression);
+                        break;
+                    case QueryByAttribute queryByAttribute:
+                        sb.AppendLine("=== Retrieve entity collection by QueryByAttribute ===");
+                        sb.AppendLine();
+                        sb.AppendLine(queryByAttribute.ToPlainText());
+                        entities = UseQueryByAttribute(queryByAttribute);
+                        break;
+                    default:
+                        throw new NotImplementedException("RetrieveMultiple для данного вида запроса не реализован.");
+                }
+            }
+            catch (Exception)
+            {
+                System.Diagnostics.Trace.WriteLine(sb.ToString());
+                throw;
+            }
+            sb.AppendLine();
+            System.Diagnostics.Trace.WriteLine(sb.ToString());
+            LogRetrieved(entities);
+            return entities;
         }
 
 
-        private EntityCollection RetrieveMultiple(QueryByAttribute query)
+        public virtual EntityCollection UseQueryExpression(QueryExpression query)
         {
-            var sb = new StringBuilder();
-            sb.AppendLine("=== Retrieve entity collection by QueryByAttribute ===");
-            sb.AppendLine(QueryExpressionInfo(query));
+            var entities = Entities.Where(e => e.LogicalName == query.EntityName).ToList();
+            return new EntityCollection(entities);
+        }
+
+
+        public virtual EntityCollection UseFetchExpression(FetchExpression query)
+        {
+            var entityName = GetFetchXmlEntity(query.Query);
+            var entities = Entities.Where(e => e.LogicalName == entityName).ToList();
+            return new EntityCollection(entities);
+        }
+
+
+        public virtual EntityCollection UseQueryByAttribute(QueryByAttribute query)
+        {
             var entities = new List<Entity>();
             foreach (var entity in Entities.Where(e => e.LogicalName == query.EntityName))
             {
@@ -297,74 +457,35 @@ namespace PZone.Xrm.Testing
                         entities.Add(entity);
                 }
             }
-
-            sb.AppendLine("Retrieved " + entities.Count + " entities");
-            System.Diagnostics.Trace.WriteLine(sb.ToString());
             return new EntityCollection(entities);
         }
 
 
-        private EntityCollection RetrieveMultiple(QueryExpression query)
+        protected string GetFetchXmlEntity(string fetchXml)
         {
-            var sb = new StringBuilder();
-            sb.AppendLine("=== Retrieve entity collection by QueryExpression ===");
-            sb.AppendLine(QueryExpressionInfo(query));
-            var entities = Entities.Where(e => e.LogicalName == query.EntityName).ToList();
-            sb.AppendLine("Retrieved " + entities.Count + " entities");
-            System.Diagnostics.Trace.WriteLine(sb.ToString());
-            return new EntityCollection(entities);
-        }
-
-
-        private EntityCollection RetrieveMultiple(FetchExpression query)
-        {
-            var sb = new StringBuilder();
-            sb.AppendLine("=== Retrieve entity collection by FetchExpression ===");
-            sb.AppendLine(query.Query);
             var xmlDoc = new XmlDocument();
-            xmlDoc.LoadXml(query.Query);
+            xmlDoc.LoadXml(fetchXml);
             var entityNode = xmlDoc.SelectSingleNode("/fetch/entity");
             if (entityNode?.Attributes == null)
                 throw new Exception("Некорректный FetchXML-запрос.");
-            var entityName = entityNode.Attributes["name"].Value;
-            var entities = Entities.Where(e => e.LogicalName == entityName).ToList();
-            sb.AppendLine("Retrieved " + entities.Count + " entities");
-            System.Diagnostics.Trace.WriteLine(sb.ToString());
-            return new EntityCollection(entities);
+            return entityNode.Attributes["name"].Value;
         }
 
 
-        private string QueryExpressionInfo(QueryExpression query)
+        protected void LogRetrieved(EntityCollection entities)
         {
             var sb = new StringBuilder();
-            sb.AppendLine($"EntityName = {query.EntityName}");
-            sb.AppendLine(query.ColumnSet.AllColumns
-                ? "ColumnSet = All"
-                : $"ColumnSet = {string.Join(", ", query.ColumnSet.Columns)}");
-            if (query.Criteria != null)
+            sb.AppendLine("Retrieved " + entities.Entities.Count + " entities");
+            foreach (var entity in entities.Entities)
             {
-                sb.AppendLine($"Criteria (FilterOperator = {query.Criteria.FilterOperator})");
-                foreach (var condition in query.Criteria.Conditions)
-                {
-                    sb.AppendLine($"\t{condition.AttributeName} {condition.Operator} \"{string.Join("\", \"", condition.Values)}\"");
-                }
+                sb.AppendLine();
+                sb.AppendLine(entity.ToPlainText());
             }
-            return sb.ToString();
+            System.Diagnostics.Trace.WriteLine(sb.ToString().TrimEnd());
         }
 
-
-        private string QueryExpressionInfo(QueryByAttribute query)
-        {
-            var sb = new StringBuilder();
-            sb.AppendLine($"EntityName = {query.EntityName}");
-            sb.AppendLine(query.ColumnSet.AllColumns
-                ? "ColumnSet = All"
-                : $"ColumnSet = {string.Join(", ", query.ColumnSet.Columns)}");
-            sb.AppendLine("Criteria");
-            for (var i = 0; i < query.Attributes.Count; i++)
-                sb.AppendLine($"\t{query.Attributes[i]} = {query.Values[i]}");
-            return sb.ToString();
-        }
+        
+        #endregion
 
 
         /// <inheritdoc />

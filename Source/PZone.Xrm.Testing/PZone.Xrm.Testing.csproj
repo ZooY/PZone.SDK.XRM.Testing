@@ -38,6 +38,10 @@
     <AssemblyOriginatorKeyFile>PZone.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="EntityReferenceExtensions.cs" />
+    <Compile Include="QueryByAttributeExtentions.cs" />
+    <Compile Include="QueryExpressionExtensions.cs" />
+    <Compile Include="SetStateRequestExtentions.cs" />
     <Compile Include="TestCategory.cs" />
     <Compile Include="FakeOrganizationService.cs" />
     <Compile Include="FakeOrganizationServiceFactory.cs" />
@@ -69,11 +73,11 @@
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PresentationFramework" />
-    <Reference Include="PZone.SDK.Xrm, Version=8.1.2.0, Culture=neutral, PublicKeyToken=4394d41fdc99a9c8, processorArchitecture=MSIL">
-      <HintPath>..\packages\PZone.SDK.XRM.8.1.2\lib\net452\PZone.SDK.Xrm.dll</HintPath>
+    <Reference Include="PZone.SDK.Xrm, Version=8.2.1.0, Culture=neutral, PublicKeyToken=4394d41fdc99a9c8, processorArchitecture=MSIL">
+      <HintPath>..\packages\PZone.SDK.XRM.8.2.1\lib\net452\PZone.SDK.Xrm.dll</HintPath>
     </Reference>
-    <Reference Include="PZone.SDK.Xrm.Plugins, Version=8.1.2.0, Culture=neutral, PublicKeyToken=4394d41fdc99a9c8, processorArchitecture=MSIL">
-      <HintPath>..\packages\PZone.SDK.XRM.Plugins.8.1.2\lib\net452\PZone.SDK.Xrm.Plugins.dll</HintPath>
+    <Reference Include="PZone.SDK.Xrm.Plugins, Version=8.2.1.0, Culture=neutral, PublicKeyToken=4394d41fdc99a9c8, processorArchitecture=MSIL">
+      <HintPath>..\packages\PZone.SDK.XRM.Plugins.8.2.1\lib\net452\PZone.SDK.Xrm.Plugins.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Activities" />
