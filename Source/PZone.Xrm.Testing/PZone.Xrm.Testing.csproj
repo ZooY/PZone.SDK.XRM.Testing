@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="EntityReferenceExtensions.cs" />
+    <Compile Include="IntExtensions.cs" />
     <Compile Include="QueryByAttributeExtentions.cs" />
     <Compile Include="QueryExpressionExtensions.cs" />
     <Compile Include="SetStateRequestExtentions.cs" />
